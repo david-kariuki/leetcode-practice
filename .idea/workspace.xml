@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9645050-7256-475c-b307-0788a21f9048" name="Changes" comment="" />
+    <list default="true" id="e9645050-7256-475c-b307-0788a21f9048" name="Chore" comment="chore: &#10;">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/interview_process/solution/approved_solution/UniqueEmailAddresses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/interview_process/solution/my_solution/UniqueEmailAddresses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/questions/template.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/TemplateClass.java" afterDir="false" />
+    </list>
+    <list id="8d4b7f00-2768-4ea3-8c29-23c14594570c" name="Config" comment="config: &#10;" />
+    <list id="5c249fc2-a94d-4763-89b0-c4c4123c0d58" name="Docs" comment="docs: &#10;">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/interview_process/questions/FruitIntoBaskets.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/interview_process/questions/LicenseKeyFormatting.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/interview_process/questions/OddEvenJump.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/interview_process/questions/UniqueEmailAddresses.md" afterDir="false" />
+    </list>
+    <list id="eeb4e8d4-dd58-47e4-8a9b-abbc0e2e9a20" name="Feat" comment="feat: &#10;" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,20 +31,75 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="google-interview" />
+                    <option name="lastUsedInstant" value="1673956750" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1673956749" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2KS5S0NUbsijRm8z69fZNr828hv" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "WebServerToolWindowFactoryState": "false"
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/dk/Dk/Projects/JavaProjects/Learning/LeetCodePractice/src/main/java/dk/learning/google_interview/interview_process/questions",
+    "nodejs_package_manager_path": "npm"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/interview_process/questions" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/questions" />
+      <recent name="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/interview_process/questions" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="dk.learning.google_interview.interview_process.solution.approved_solution" />
+      <recent name="dk.learning.google_interview.interview_process.solution.my_solution" />
+      <recent name="dk.learning.google_interview.interview_process" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -37,9 +108,38 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673955140299</updated>
-      <workItem from="1673955142928" duration="1000" />
+      <workItem from="1673955142928" duration="5867000" />
     </task>
+    <task id="LOCAL-00001" summary="Feat">
+      <changelist id="eeb4e8d4-dd58-47e4-8a9b-abbc0e2e9a20" name="Feat" comment="feat: &#10;" />
+      <created>1673956878801</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673956878801</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Config">
+      <changelist id="8d4b7f00-2768-4ea3-8c29-23c14594570c" name="Config" comment="config: &#10;" />
+      <created>1673956894174</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673956894174</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Docs">
+      <changelist id="5c249fc2-a94d-4763-89b0-c4c4123c0d58" name="Docs" comment="docs: &#10;" />
+      <created>1673956909307</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1673956909307</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <option name="trackContextForNewChangelist" value="true" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -51,5 +151,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
