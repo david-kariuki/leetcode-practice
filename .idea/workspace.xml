@@ -40,6 +40,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
   <component name="GitToolBoxStore">
     <option name="recentBranches">
@@ -134,7 +135,56 @@
       <option name="project" value="LOCAL" />
       <updated>1673956909307</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: Update JUnit version">
+      <created>1673962742859</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1673962742859</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: Create template class">
+      <created>1673962754120</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1673962754120</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: Unique Email Address solution&#10;&#10;Create class to implement Unique Email Address questions' solution">
+      <created>1673962813110</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1673962813110</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat: Create template md file">
+      <created>1673962839581</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1673962839581</updated>
+    </task>
+    <task id="LOCAL-00008" summary="config: Project configuration">
+      <created>1673962853453</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1673962853453</updated>
+    </task>
+    <task id="LOCAL-00009" summary="docs: Add interview questions">
+      <created>1673962869465</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1673962869465</updated>
+    </task>
+    <task id="LOCAL-00010" summary="config: Project configuration">
+      <created>1673962886257</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1673962886257</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <option name="trackContextForNewChangelist" value="true" />
     <servers />
   </component>
@@ -153,6 +203,17 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="feat: Update JUnit version" />
+    <MESSAGE value="feat: Create template class" />
+    <MESSAGE value="feat: Unique Email Address solution&#10;&#10;Create class to implement Unique Email Address questions' solution" />
+    <MESSAGE value="feat: Create template md file" />
+    <MESSAGE value="docs: Add interview questions" />
+    <MESSAGE value="config: Project configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="config: Project configuration" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
