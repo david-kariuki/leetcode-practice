@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9645050-7256-475c-b307-0788a21f9048" name="Chore" comment="refactor: Move packages" />
+    <list default="true" id="e9645050-7256-475c-b307-0788a21f9048" name="Chore" comment="questions: Create question template files" />
     <list id="8d4b7f00-2768-4ea3-8c29-23c14594570c" name="Config" comment="config: &#10;" />
     <list id="5c249fc2-a94d-4763-89b0-c4c4123c0d58" name="Docs" comment="docs: &#10;" />
     <list id="eeb4e8d4-dd58-47e4-8a9b-abbc0e2e9a20" name="Feat" comment="feat: &#10;" />
@@ -85,11 +85,11 @@
       <recent name="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/interview_process/questions" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\dk\Learning\leetcode-practice\src\main\java\dk\learning\google_interview\arrays_and_strings\longest_substring_without_repeating_characters" />
       <recent name="C:\dk\Learning\leetcode-practice\src\main\java\dk\learning\google_interview\interview_process\interview_process\odd_even_jump" />
       <recent name="C:\dk\Learning\leetcode-practice\src\main\java\dk\learning\google_interview\interview_process\interview_process\license_key_formatting" />
       <recent name="C:\dk\Learning\leetcode-practice\src\main\java\dk\learning\google_interview\interview_process\interview_process\fruit_into_baskets" />
       <recent name="C:\dk\Learning\leetcode-practice\src\main\java\dk\learning\google_interview\interview_process\interview_process\unique_email_addresses" />
-      <recent name="$PROJECT_DIR$/src/main/resources/questions" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="dk.learning.google_interview.interview_process.solution.my_solution" />
@@ -223,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684770823250</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="questions: Create question template files">
+      <created>1684771426543</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1684771426543</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <option name="trackContextForNewChangelist" value="true" />
     <servers />
   </component>
@@ -253,7 +260,8 @@
     <MESSAGE value="config: config" />
     <MESSAGE value="question: Find Number of Unique Email Addresses" />
     <MESSAGE value="refactor: Move packages" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: Move packages" />
+    <MESSAGE value="questions: Create question template files" />
+    <option name="LAST_COMMIT_MESSAGE" value="questions: Create question template files" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
