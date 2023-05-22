@@ -9,7 +9,7 @@ package dk.learning.google_interview.interview_process.solution.my_solution;
 import java.util.HashSet;
 import java.util.Set;
 
-public class UniqueEmailAddresses {
+public class UniqueEmailAddresses1 {
 
 
     /**
