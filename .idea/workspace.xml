@@ -5,21 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9645050-7256-475c-b307-0788a21f9048" name="Chore" comment="chore: &#10;">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/interview_process/solution/approved_solution/UniqueEmailAddresses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/interview_process/solution/my_solution/UniqueEmailAddresses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/questions/template.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/interview_process/solution/my_solution/UniqueEmailAddresses2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/TemplateClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/interview_process/solution/my_solution/UniqueEmailAddresses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/interview_process/solution/my_solution/UniqueEmailAddresses1.java" afterDir="false" />
     </list>
     <list id="8d4b7f00-2768-4ea3-8c29-23c14594570c" name="Config" comment="config: &#10;" />
-    <list id="5c249fc2-a94d-4763-89b0-c4c4123c0d58" name="Docs" comment="docs: &#10;">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/interview_process/questions/FruitIntoBaskets.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/interview_process/questions/LicenseKeyFormatting.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/interview_process/questions/OddEvenJump.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/interview_process/questions/UniqueEmailAddresses.md" afterDir="false" />
-    </list>
+    <list id="5c249fc2-a94d-4763-89b0-c4c4123c0d58" name="Docs" comment="docs: &#10;" />
     <list id="eeb4e8d4-dd58-47e4-8a9b-abbc0e2e9a20" name="Feat" comment="feat: &#10;" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +44,7 @@
                 <list>
                   <RecentBranch>
                     <option name="branchName" value="google-interview" />
-                    <option name="lastUsedInstant" value="1673956750" />
+                    <option name="lastUsedInstant" value="1684767155" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="master" />
@@ -83,7 +75,12 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "google-interview",
     "last_opened_file_path": "/home/dk/Dk/Projects/JavaProjects/Learning/LeetCodePractice/src/main/java/dk/learning/google_interview/interview_process/questions",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
@@ -96,10 +93,25 @@
       <recent name="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/interview_process/questions" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="dk.learning.google_interview.interview_process.solution.approved_solution" />
       <recent name="dk.learning.google_interview.interview_process.solution.my_solution" />
+      <recent name="dk.learning.google_interview.interview_process.solution.approved_solution" />
       <recent name="dk.learning.google_interview.interview_process" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="LeetCodePractice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="LeetCodePractice" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
