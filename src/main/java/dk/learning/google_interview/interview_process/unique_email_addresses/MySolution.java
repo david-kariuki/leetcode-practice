@@ -3,24 +3,25 @@
  * @author David Kariuki
  * @since 17/01/2023
  */
-
-package dk.learning.google_interview.interview_process.solution.my_solution;
+package dk.learning.google_interview.interview_process.unique_email_addresses;
 
 import java.util.HashSet;
 import java.util.Set;
 
-public class UniqueEmailAddresses1 {
+public class MySolution {
 
+  /**
+   * Main method
+   *
+   * @param args - String[]
+   */
+  public static void main(String[] args) {
 
-    /**
-     * Main method
-     *
-     * @param args - String[]
-     */
-    public static void main(String[] args) {
-
-        String[] emailAddresses = new String[]{
-                "test.email+alex@leetcode.com", "test.e.mail+bob.cathy@leetcode.com", "testemail+david@lee.tcode.com"
+    String[] emailAddresses =
+        new String[] {
+          "test.email+alex@leetcode.com",
+          "test.e.mail+bob.cathy@leetcode.com",
+          "testemail+david@lee.tcode.com"
         };
 
         System.out.println(numUniqueEmails(emailAddresses));

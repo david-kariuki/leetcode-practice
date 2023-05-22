@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9645050-7256-475c-b307-0788a21f9048" name="Chore" comment="chore: &#10;">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/interview_process/solution/my_solution/UniqueEmailAddresses2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="e9645050-7256-475c-b307-0788a21f9048" name="Chore" comment="refactor: Move packages">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/interview_process/arrays_and_strings/LongestSubstringWithoutRepeatingCharacters.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/interview_process/solution/my_solution/UniqueEmailAddresses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/interview_process/solution/my_solution/UniqueEmailAddresses1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/interview_process/question/interview_process/FruitIntoBaskets.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/interview_process/interview_process/fruit_into_baskets/FruitIntoBaskets.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/interview_process/question/interview_process/LicenseKeyFormatting.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/interview_process/interview_process/license_key_formatting/LicenseKeyFormatting.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/interview_process/question/interview_process/OddEvenJump.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/interview_process/interview_process/odd_even_jump/OddEvenJump.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/interview_process/question/interview_process/UniqueEmailAddresses.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/interview_process/interview_process/unique_email_addresses/UniqueEmailAddresses.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/interview_process/solution/approved_solution/UniqueEmailAddresses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/interview_process/interview_process/unique_email_addresses/ApprovedSolution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/interview_process/solution/my_solution/UniqueEmailAddresses1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/interview_process/interview_process/unique_email_addresses/MySolution.java" afterDir="false" />
     </list>
     <list id="8d4b7f00-2768-4ea3-8c29-23c14594570c" name="Config" comment="config: &#10;" />
     <list id="5c249fc2-a94d-4763-89b0-c4c4123c0d58" name="Docs" comment="docs: &#10;" />
@@ -76,7 +80,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "google-interview",
-    "last_opened_file_path": "/home/dk/Dk/Projects/JavaProjects/Learning/LeetCodePractice/src/main/java/dk/learning/google_interview/interview_process/questions",
+    "last_opened_file_path": "C:/dk/Learning/leetcode-practice/src/main/java/dk/learning/google_interview/interview_process/question/interview_process",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -86,11 +90,15 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\dk\Learning\leetcode-practice\src\main\java\dk\learning\google_interview\interview_process\question\interview_process" />
       <recent name="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/interview_process/questions" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\dk\Learning\leetcode-practice\src\main\java\dk\learning\google_interview\interview_process\interview_process\odd_even_jump" />
+      <recent name="C:\dk\Learning\leetcode-practice\src\main\java\dk\learning\google_interview\interview_process\interview_process\license_key_formatting" />
+      <recent name="C:\dk\Learning\leetcode-practice\src\main\java\dk\learning\google_interview\interview_process\interview_process\fruit_into_baskets" />
+      <recent name="C:\dk\Learning\leetcode-practice\src\main\java\dk\learning\google_interview\interview_process\interview_process\unique_email_addresses" />
       <recent name="$PROJECT_DIR$/src/main/resources/questions" />
-      <recent name="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/interview_process/questions" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="dk.learning.google_interview.interview_process.solution.my_solution" />
@@ -196,7 +204,28 @@
       <option name="project" value="LOCAL" />
       <updated>1673962886257</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="config: config">
+      <created>1684769830994</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1684769830994</updated>
+    </task>
+    <task id="LOCAL-00012" summary="question: Find Number of Unique Email Addresses">
+      <created>1684769870752</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1684769870752</updated>
+    </task>
+    <task id="LOCAL-00013" summary="refactor: Move packages">
+      <created>1684770364016</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1684770364016</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <option name="trackContextForNewChangelist" value="true" />
     <servers />
   </component>
@@ -223,7 +252,10 @@
     <MESSAGE value="feat: Create template md file" />
     <MESSAGE value="docs: Add interview questions" />
     <MESSAGE value="config: Project configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="config: Project configuration" />
+    <MESSAGE value="config: config" />
+    <MESSAGE value="question: Find Number of Unique Email Addresses" />
+    <MESSAGE value="refactor: Move packages" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: Move packages" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
