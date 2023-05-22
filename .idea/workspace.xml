@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9645050-7256-475c-b307-0788a21f9048" name="Changes" comment="" />
+    <list default="true" id="e9645050-7256-475c-b307-0788a21f9048" name="Chore" comment="questions: Create question template files">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/b_arrays_and_strings/_18_merge_k_sorted_lists/Merge_K_SortedLists.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/b_arrays_and_strings/_19_trapping_rain_ater/TrappingRainWater.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/b_arrays_and_strings/_20_kth_largest_element_in_an_array/KthLargestElementInAnArray.md" afterDir="false" />
+    </list>
+    <list id="8d4b7f00-2768-4ea3-8c29-23c14594570c" name="Config" comment="config: &#10;" />
+    <list id="5c249fc2-a94d-4763-89b0-c4c4123c0d58" name="Docs" comment="docs: &#10;" />
+    <list id="eeb4e8d4-dd58-47e4-8a9b-abbc0e2e9a20" name="Feat" comment="feat: &#10;" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,20 +22,100 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="google-interview" />
+                    <option name="lastUsedInstant" value="1684767155" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1673956749" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2KS5S0NUbsijRm8z69fZNr828hv" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "WebServerToolWindowFactoryState": "false"
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "google-interview",
+    "last_opened_file_path": "C:/dk/Learning/leetcode-practice/src/main/java/dk/learning/google_interview/interview_process/question/interview_process",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\dk\Learning\leetcode-practice\src\main\java\dk\learning\google_interview\interview_process\question\interview_process" />
+      <recent name="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/interview_process/questions" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\dk\Learning\leetcode-practice\src\main\java\dk\learning\google_interview\arrays_and_strings\longest_substring_without_repeating_characters" />
+      <recent name="C:\dk\Learning\leetcode-practice\src\main\java\dk\learning\google_interview\interview_process\interview_process\odd_even_jump" />
+      <recent name="C:\dk\Learning\leetcode-practice\src\main\java\dk\learning\google_interview\interview_process\interview_process\license_key_formatting" />
+      <recent name="C:\dk\Learning\leetcode-practice\src\main\java\dk\learning\google_interview\interview_process\interview_process\fruit_into_baskets" />
+      <recent name="C:\dk\Learning\leetcode-practice\src\main\java\dk\learning\google_interview\interview_process\interview_process\unique_email_addresses" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="dk.learning.google_interview.interview_process.solution.my_solution" />
+      <recent name="dk.learning.google_interview.interview_process.solution.approved_solution" />
+      <recent name="dk.learning.google_interview.interview_process" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="LeetCodePractice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="LeetCodePractice" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -37,9 +124,143 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673955140299</updated>
-      <workItem from="1673955142928" duration="1000" />
+      <workItem from="1673955142928" duration="5867000" />
     </task>
+    <task id="LOCAL-00001" summary="Feat">
+      <changelist id="eeb4e8d4-dd58-47e4-8a9b-abbc0e2e9a20" name="Feat" comment="feat: &#10;" />
+      <created>1673956878801</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673956878801</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Config">
+      <changelist id="8d4b7f00-2768-4ea3-8c29-23c14594570c" name="Config" comment="config: &#10;" />
+      <created>1673956894174</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673956894174</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Docs">
+      <changelist id="5c249fc2-a94d-4763-89b0-c4c4123c0d58" name="Docs" comment="docs: &#10;" />
+      <created>1673956909307</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1673956909307</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: Update JUnit version">
+      <created>1673962742859</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1673962742859</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: Create template class">
+      <created>1673962754120</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1673962754120</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: Unique Email Address solution&#10;&#10;Create class to implement Unique Email Address questions' solution">
+      <created>1673962813110</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1673962813110</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat: Create template md file">
+      <created>1673962839581</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1673962839581</updated>
+    </task>
+    <task id="LOCAL-00008" summary="config: Project configuration">
+      <created>1673962853453</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1673962853453</updated>
+    </task>
+    <task id="LOCAL-00009" summary="docs: Add interview questions">
+      <created>1673962869465</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1673962869465</updated>
+    </task>
+    <task id="LOCAL-00010" summary="config: Project configuration">
+      <created>1673962886257</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1673962886257</updated>
+    </task>
+    <task id="LOCAL-00011" summary="config: config">
+      <created>1684769830994</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1684769830994</updated>
+    </task>
+    <task id="LOCAL-00012" summary="question: Find Number of Unique Email Addresses">
+      <created>1684769870752</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1684769870752</updated>
+    </task>
+    <task id="LOCAL-00013" summary="refactor: Move packages">
+      <created>1684770364016</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1684770364016</updated>
+    </task>
+    <task id="LOCAL-00014" summary="refactor: Move packages">
+      <created>1684770823250</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1684770823250</updated>
+    </task>
+    <task id="LOCAL-00015" summary="questions: Create question template files">
+      <created>1684771426543</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1684771426543</updated>
+    </task>
+    <task id="LOCAL-00016" summary="questions: Create question template files">
+      <created>1684771766589</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1684771766589</updated>
+    </task>
+    <task id="LOCAL-00017" summary="questions: Create question template files">
+      <created>1684771907788</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1684771907788</updated>
+    </task>
+    <task id="LOCAL-00018" summary="questions: Create question template files">
+      <created>1684772265161</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1684772265161</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
+    <option name="trackContextForNewChangelist" value="true" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -51,5 +272,23 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="feat: Update JUnit version" />
+    <MESSAGE value="feat: Create template class" />
+    <MESSAGE value="feat: Unique Email Address solution&#10;&#10;Create class to implement Unique Email Address questions' solution" />
+    <MESSAGE value="feat: Create template md file" />
+    <MESSAGE value="docs: Add interview questions" />
+    <MESSAGE value="config: Project configuration" />
+    <MESSAGE value="config: config" />
+    <MESSAGE value="question: Find Number of Unique Email Addresses" />
+    <MESSAGE value="refactor: Move packages" />
+    <MESSAGE value="questions: Create question template files" />
+    <option name="LAST_COMMIT_MESSAGE" value="questions: Create question template files" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
