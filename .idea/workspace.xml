@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9645050-7256-475c-b307-0788a21f9048" name="Chore" comment="refactor: Move packages">
+    <list default="true" id="e9645050-7256-475c-b307-0788a21f9048" name="Changes" comment="refactor: Move packages">
       <change afterPath="$PROJECT_DIR$/src/main/java/dk/learning/learn_dsa/array_and_string/ArrayIntroduction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dk/learning/learn_dsa/array_and_string/DynamicArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dk/learning/learn_dsa/array_and_string/FindPivotIndex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
-    <list id="8d4b7f00-2768-4ea3-8c29-23c14594570c" name="Config" comment="config: &#10;" />
+    <list id="8d4b7f00-2768-4ea3-8c29-23c14594570c" name="Config" comment="config: Project config" />
     <list id="5c249fc2-a94d-4763-89b0-c4c4123c0d58" name="Docs" comment="docs: &#10;" />
     <list id="eeb4e8d4-dd58-47e4-8a9b-abbc0e2e9a20" name="Feat" comment="feat: &#10;" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +35,7 @@
     <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
   <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
     <option name="recentBranches">
       <RecentBranches>
         <option name="branchesForRepo">
@@ -56,6 +60,13 @@
       </RecentBranches>
     </option>
   </component>
+  <component name="GithubProjectSettings">
+    <option name="branchProtectionPatterns">
+      <list>
+        <option value="master" />
+      </list>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -70,6 +81,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "google-interview",
     "last_opened_file_path": "C:/dk/Learning/leetcode-practice/src/main/java/dk/learning/google_interview/interview_process/question/interview_process",
@@ -99,7 +112,7 @@
       <recent name="dk.learning.google_interview.interview_process" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.DynamicArray">
     <configuration name="ArrayIntroduction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dk.learning.learn_dsa.array_and_string.ArrayIntroduction" />
       <module name="LeetCodePractice.main" />
@@ -113,8 +126,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DynamicArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dk.learning.learn_dsa.array_and_string.DynamicArray" />
+      <module name="LeetCodePractice.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dk.learning.learn_dsa.array_and_string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DynamicArray" />
         <item itemvalue="Application.ArrayIntroduction" />
       </list>
     </recent_temporary>
@@ -268,7 +295,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684811972938</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="config: Project config">
+      <created>1684812113322</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1684812113322</updated>
+    </task>
+    <task id="LOCAL-00021" summary="config: Project config">
+      <created>1684812130283</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1684812130283</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <option name="trackContextForNewChangelist" value="true" />
     <servers />
   </component>
@@ -299,7 +340,8 @@
     <MESSAGE value="question: Find Number of Unique Email Addresses" />
     <MESSAGE value="questions: Create question template files" />
     <MESSAGE value="refactor: Move packages" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: Move packages" />
+    <MESSAGE value="config: Project config" />
+    <option name="LAST_COMMIT_MESSAGE" value="config: Project config" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
