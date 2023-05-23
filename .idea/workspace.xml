@@ -4,40 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9645050-7256-475c-b307-0788a21f9048" name="Chore" comment="questions: Create question template files">
+    <list default="true" id="e9645050-7256-475c-b307-0788a21f9048" name="Chore" comment="refactor: Move packages">
       <change afterPath="$PROJECT_DIR$/src/main/java/dk/learning/learn_dsa/array_and_string/ArrayIntroduction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/a_interview_process/fruit_into_baskets/FruitIntoBaskets.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/practice_dsa/google_interview/a_interview_process/fruit_into_baskets/FruitIntoBaskets.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/a_interview_process/license_key_formatting/LicenseKeyFormatting.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/practice_dsa/google_interview/a_interview_process/license_key_formatting/LicenseKeyFormatting.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/a_interview_process/odd_even_jump/OddEvenJump.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/practice_dsa/google_interview/a_interview_process/odd_even_jump/OddEvenJump.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/a_interview_process/unique_email_addresses/ApprovedSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/practice_dsa/google_interview/a_interview_process/unique_email_addresses/ApprovedSolution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/a_interview_process/unique_email_addresses/MySolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/practice_dsa/google_interview/a_interview_process/unique_email_addresses/MySolution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/a_interview_process/unique_email_addresses/UniqueEmailAddresses.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/practice_dsa/google_interview/a_interview_process/unique_email_addresses/UniqueEmailAddresses.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/b_arrays_and_strings/_10_read_N_characters_given_read4_II_all_multiple_times/Read-N-CharactersGivenRead4-II-CallMultipleTimes.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/practice_dsa/google_interview/b_arrays_and_strings/_10_read_N_characters_given_read4_II_all_multiple_times/Read-N-CharactersGivenRead4-II-CallMultipleTimes.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/b_arrays_and_strings/_11_longest_substring_with_at_most_two_distinct_characters/ LongestSubstringWithAtMostTwoDistinctCharacters.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/practice_dsa/google_interview/b_arrays_and_strings/_11_longest_substring_with_at_most_two_distinct_characters/ LongestSubstringWithAtMostTwoDistinctCharacters.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/b_arrays_and_strings/_12_missing_ranges/MissingRanges.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/practice_dsa/google_interview/b_arrays_and_strings/_12_missing_ranges/MissingRanges.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/b_arrays_and_strings/_13_next_closest_time/NextClosestTime.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/practice_dsa/google_interview/b_arrays_and_strings/_13_next_closest_time/NextClosestTime.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/b_arrays_and_strings/_14_expressive_words/ExpressiveWords.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/practice_dsa/google_interview/b_arrays_and_strings/_14_expressive_words/ExpressiveWords.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/b_arrays_and_strings/_15_find_and_replace_in_string/FindAndReplaceInString.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/practice_dsa/google_interview/b_arrays_and_strings/_15_find_and_replace_in_string/FindAndReplaceInString.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/b_arrays_and_strings/_16_maximize_distance_to_closest_person/MaximizeDistanceToClosestPerson.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/practice_dsa/google_interview/b_arrays_and_strings/_16_maximize_distance_to_closest_person/MaximizeDistanceToClosestPerson.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/b_arrays_and_strings/_17_valid_parentheses/ValidParentheses.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/practice_dsa/google_interview/b_arrays_and_strings/_17_valid_parentheses/ValidParentheses.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/b_arrays_and_strings/_18_merge_k_sorted_lists/Merge_K_SortedLists.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/practice_dsa/google_interview/b_arrays_and_strings/_18_merge_k_sorted_lists/Merge_K_SortedLists.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/b_arrays_and_strings/_19_trapping_rain_ater/TrappingRainWater.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/practice_dsa/google_interview/b_arrays_and_strings/_19_trapping_rain_ater/TrappingRainWater.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/b_arrays_and_strings/_1_longest_substring_without_repeating_characters/LongestSubstringWithoutRepeatingCharacters.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/practice_dsa/google_interview/b_arrays_and_strings/_1_longest_substring_without_repeating_characters/LongestSubstringWithoutRepeatingCharacters.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/b_arrays_and_strings/_20_kth_largest_element_in_an_array/KthLargestElementInAnArray.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/practice_dsa/google_interview/b_arrays_and_strings/_20_kth_largest_element_in_an_array/KthLargestElementInAnArray.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/b_arrays_and_strings/_21_meeting_rooms_II/MeetingRooms_II.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/practice_dsa/google_interview/b_arrays_and_strings/_21_meeting_rooms_II/MeetingRooms_II.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/b_arrays_and_strings/_22_backspace_string_compare/BackspaceStringCompare.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/practice_dsa/google_interview/b_arrays_and_strings/_22_backspace_string_compare/BackspaceStringCompare.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/b_arrays_and_strings/_23_minimum_cost_to_hire_k_workers/MinimumCostToHire_K_Workers.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/practice_dsa/google_interview/b_arrays_and_strings/_23_minimum_cost_to_hire_k_workers/MinimumCostToHire_K_Workers.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/b_arrays_and_strings/_24_k_closest_points_to_origin/K_ClosestPointsToOrigin.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/practice_dsa/google_interview/b_arrays_and_strings/_24_k_closest_points_to_origin/K_ClosestPointsToOrigin.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/b_arrays_and_strings/_2_container_with_most_water/ContainerWithMostWater.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/practice_dsa/google_interview/b_arrays_and_strings/_2_container_with_most_water/ContainerWithMostWater.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/b_arrays_and_strings/_3_3_sum/3Sum" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/practice_dsa/google_interview/b_arrays_and_strings/_3_3_sum/3Sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/b_arrays_and_strings/_4_next_permutation/NextPermutation.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/practice_dsa/google_interview/b_arrays_and_strings/_4_next_permutation/NextPermutation.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/b_arrays_and_strings/_5_multiply_strings/MultiplyStrings.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/practice_dsa/google_interview/b_arrays_and_strings/_5_multiply_strings/MultiplyStrings.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/b_arrays_and_strings/_6_rotate_image/RotateImage.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/practice_dsa/google_interview/b_arrays_and_strings/_6_rotate_image/RotateImage.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/b_arrays_and_strings/_7_jump_game/JumpGame.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/practice_dsa/google_interview/b_arrays_and_strings/_7_jump_game/JumpGame.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/b_arrays_and_strings/_8_plus_one/PlusOne.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/practice_dsa/google_interview/b_arrays_and_strings/_8_plus_one/PlusOne.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/b_arrays_and_strings/_9_minimum_window_substring/MinimumWindowSubstring.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/practice_dsa/google_interview/b_arrays_and_strings/_9_minimum_window_substring/MinimumWindowSubstring.md" afterDir="false" />
     </list>
     <list id="8d4b7f00-2768-4ea3-8c29-23c14594570c" name="Config" comment="config: &#10;" />
     <list id="5c249fc2-a94d-4763-89b0-c4c4123c0d58" name="Docs" comment="docs: &#10;" />
@@ -102,7 +70,6 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "google-interview",
     "last_opened_file_path": "C:/dk/Learning/leetcode-practice/src/main/java/dk/learning/google_interview/interview_process/question/interview_process",
@@ -111,7 +78,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.CommitDialog"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -294,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684772265161</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="refactor: Move packages">
+      <created>1684811972938</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1684811972938</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <option name="trackContextForNewChangelist" value="true" />
     <servers />
   </component>
@@ -323,9 +297,9 @@
     <MESSAGE value="config: Project configuration" />
     <MESSAGE value="config: config" />
     <MESSAGE value="question: Find Number of Unique Email Addresses" />
-    <MESSAGE value="refactor: Move packages" />
     <MESSAGE value="questions: Create question template files" />
-    <option name="LAST_COMMIT_MESSAGE" value="questions: Create question template files" />
+    <MESSAGE value="refactor: Move packages" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: Move packages" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
