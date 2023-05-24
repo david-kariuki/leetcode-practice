@@ -2,8 +2,7 @@
  * @apiNote FindPivotIndex class
  * @author David Kariuki
  * @version 1.0.0
- * @since 5/22/23
- * @note Question
+ * @since 5/22/23 @Question Find Pivot Index
  *     <p>Given an array of integers nums, calculate the pivot index of this array. The pivot index
  *     is the index where the sum of all the numbers strictly to the left of the index is equal to
  *     the sum of all the numbers strictly to the index's right.

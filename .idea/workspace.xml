@@ -112,7 +112,7 @@
       <recent name="dk.learning.google_interview.interview_process" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DynamicArray">
+  <component name="RunManager" selected="Application.LargestNumberAtLeastTwiceOfOthers">
     <configuration name="ArrayIntroduction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dk.learning.learn_dsa.array_and_string.ArrayIntroduction" />
       <module name="LeetCodePractice.main" />
@@ -139,8 +139,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FindPivotIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dk.learning.learn_dsa.array_and_string.FindPivotIndex" />
+      <module name="LeetCodePractice.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dk.learning.learn_dsa.array_and_string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LargestNumberAtLeastTwiceOfOthers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dk.learning.learn_dsa.array_and_string.LargestNumberAtLeastTwiceOfOthers" />
+      <module name="LeetCodePractice.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dk.learning.learn_dsa.array_and_string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LargestNumberAtLeastTwiceOfOthers" />
+        <item itemvalue="Application.FindPivotIndex" />
         <item itemvalue="Application.DynamicArray" />
         <item itemvalue="Application.ArrayIntroduction" />
       </list>
