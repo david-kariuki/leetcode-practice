@@ -21,8 +21,7 @@ public class LargestNumberAtLeastTwiceOfOthers {
 
     int maxIndex = 0, dominantIndex = -1;
 
-    for (int i = 0; i < nums.length; i++)
-      if (nums[i] > nums[maxIndex]) maxIndex = i;
+    for (int i = 0; i < nums.length; i++) if (nums[i] > nums[maxIndex]) maxIndex = i;
 
     for (int j = 0; j < nums.length; j++) {
 
