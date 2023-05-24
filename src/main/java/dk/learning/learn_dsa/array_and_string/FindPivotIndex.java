@@ -13,4 +13,24 @@
  */
 package dk.learning.learn_dsa.array_and_string;
 
-public class FindPivotIndex {}
+public class FindPivotIndex {
+
+    public static void main(String[] args) {
+
+        int[] nums = new int[]{1,7,3,6,5,6};
+        System.out.println(pivotIndex(nums));
+    }
+
+    public static int pivotIndex(int[] nums) {
+
+        int arraySum = 0, leftSum = 0;
+
+        for (int i : nums) arraySum += i;
+
+        for (int j = 0; j < nums.length; j++) {
+            if (leftSum == arraySum - leftSum - nums[j]) return j;
+            leftSum += nums[j];
+        }
+        return -1;
+    }
+}
