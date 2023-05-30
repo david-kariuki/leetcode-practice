@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9645050-7256-475c-b307-0788a21f9048" name="Changes" comment="Leaning arrays">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dk/learning/learn_dsa/array_and_string/questions/PlusOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dk/learning/learn_dsa/array_and_string/questions/QuestionPlusOne.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/learn_dsa/array_and_string/LargestNumberAtLeastTwiceOfOthers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/learn_dsa/array_and_string/LargestNumberAtLeastTwiceOfOthers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/learn_dsa/array_and_string/questions/SolutionFindPivotIndex.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/learn_dsa/array_and_string/questions/QuestionFindPivotIndex.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/learn_dsa/array_and_string/questions/SolutionLargestNumberAtLeastTwiceOfOthers.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/learn_dsa/array_and_string/questions/QuestionLargestNumberAtLeastTwiceOfOthers.md" afterDir="false" />
     </list>
     <list id="8d4b7f00-2768-4ea3-8c29-23c14594570c" name="Config" comment="config: Project config" />
     <list id="5c249fc2-a94d-4763-89b0-c4c4123c0d58" name="Docs" comment="docs: &#10;" />
@@ -76,34 +79,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;google-interview&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/dk/Learning/leetcode-practice/src/main/java/dk/learning/google_interview/interview_process/question/interview_process&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "google-interview",
+    "last_opened_file_path": "/home/learning/Learn/Learning/Projects/LeetCode/leetcode-practice/src/main/java/dk/learning/learn_dsa/array_and_string/questions",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/dk/learning/learn_dsa/array_and_string/questions" />
       <recent name="C:\dk\Learning\leetcode-practice\src\main\java\dk\learning\google_interview\interview_process\question\interview_process" />
       <recent name="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/interview_process/questions" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/dk/learning/learn_dsa/array_and_string/questions" />
       <recent name="C:\dk\Learning\leetcode-practice\src\main\java\dk\learning\google_interview\arrays_and_strings\longest_substring_without_repeating_characters" />
       <recent name="C:\dk\Learning\leetcode-practice\src\main\java\dk\learning\google_interview\interview_process\interview_process\odd_even_jump" />
       <recent name="C:\dk\Learning\leetcode-practice\src\main\java\dk\learning\google_interview\interview_process\interview_process\license_key_formatting" />
       <recent name="C:\dk\Learning\leetcode-practice\src\main\java\dk\learning\google_interview\interview_process\interview_process\fruit_into_baskets" />
-      <recent name="C:\dk\Learning\leetcode-practice\src\main\java\dk\learning\google_interview\interview_process\interview_process\unique_email_addresses" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="dk.learning.learn_dsa.array_and_string.questions" />
       <recent name="dk.learning.google_interview.interview_process.solution.my_solution" />
       <recent name="dk.learning.google_interview.interview_process.solution.approved_solution" />
       <recent name="dk.learning.google_interview.interview_process" />
@@ -397,7 +402,21 @@
       <option name="project" value="LOCAL" />
       <updated>1685417635836</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="config: Project config">
+      <created>1685417650432</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1685417650432</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Leaning arrays">
+      <created>1685417720300</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1685417720300</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <option name="trackContextForNewChangelist" value="true" />
     <servers />
   </component>
