@@ -10,7 +10,7 @@
  *     elements to the left. This also applies to the right edge of the array. Return the leftmost
  *     pivot index. If no such index exists, return -1.
  */
-package dk.learning.learn_dsa.array_and_string;
+package dk.learning.learn_dsa.array_and_string.questions;
 
 public class FindPivotIndex {
 

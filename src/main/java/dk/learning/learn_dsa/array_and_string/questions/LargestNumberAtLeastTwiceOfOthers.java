@@ -1,5 +1,4 @@
-package dk.learning.learn_dsa.array_and_string;
-
+package dk.learning.learn_dsa.array_and_string.questions;
 
 /**
  * @apiNote class
