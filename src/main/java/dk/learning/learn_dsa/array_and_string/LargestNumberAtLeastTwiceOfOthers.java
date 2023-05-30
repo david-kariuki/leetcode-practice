@@ -21,19 +21,17 @@ public class LargestNumberAtLeastTwiceOfOthers {
 
   public static int dominantIndex(int[] nums) {
 
-    int maxIndex = 0, dominantIndex = -1;
+    int max1 = Integer.MIN_VALUE, max2 = Integer.MIN_VALUE, index = -1;
 
-    for (int i = 0; i < nums.length; i++) if (nums[i] > nums[maxIndex]) maxIndex = i;
-
-    for (int j = 0; j < nums.length; j++) {
-
-      if (j != nums[maxIndex] && (nums[maxIndex] < (nums[j] * 2))) {
-        return -1;
-      } else {
-        dominantIndex = j;
+    for (int i = 0; i < nums.length; i++) {
+      if (nums[i] > max1) {
+        max2 = max1; // Replace max 1 into 2
+        max1 = nums[i];
+        index = i;
+      } else if (nums[i] > max2) {
+        max2 = nums[i];
       }
     }
-
-    return dominantIndex;
+    return (max2 * 2) <= max1 ? index : -1; // Compare first and second max
   }
 }

@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9645050-7256-475c-b307-0788a21f9048" name="Changes" comment="Leaning arrays">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dk/learning/learn_dsa/array_and_string/SolutionFindPivotIndex.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dk/learning/learn_dsa/array_and_string/SolutionLargestNumberAtLeastTwiceOfOthers.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/learn_dsa/array_and_string/LargestNumberAtLeastTwiceOfOthers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/learn_dsa/array_and_string/LargestNumberAtLeastTwiceOfOthers.java" afterDir="false" />
     </list>
-    <list id="8d4b7f00-2768-4ea3-8c29-23c14594570c" name="Config" comment="config: Project config">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list id="8d4b7f00-2768-4ea3-8c29-23c14594570c" name="Config" comment="config: Project config" />
     <list id="5c249fc2-a94d-4763-89b0-c4c4123c0d58" name="Docs" comment="docs: &#10;" />
     <list id="eeb4e8d4-dd58-47e4-8a9b-abbc0e2e9a20" name="Feat" comment="feat: &#10;" />
     <option name="SHOW_DIALOG" value="false" />
@@ -379,7 +376,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684899682314</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Leaning arrays">
+      <created>1685331986803</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1685331986803</updated>
+    </task>
+    <task id="LOCAL-00029" summary="config: Project config">
+      <created>1685331992788</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1685331992788</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <option name="trackContextForNewChangelist" value="true" />
     <servers />
   </component>
