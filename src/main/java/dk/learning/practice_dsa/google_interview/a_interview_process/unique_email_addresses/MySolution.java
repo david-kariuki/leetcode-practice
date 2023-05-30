@@ -3,7 +3,7 @@
  * @author David Kariuki
  * @since 17/01/2023
  */
-package dk.learning.google_interview.a_interview_process.unique_email_addresses;
+package dk.learning.practice_dsa.google_interview.a_interview_process.unique_email_addresses;
 
 import java.util.HashSet;
 import java.util.Set;

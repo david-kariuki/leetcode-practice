@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9645050-7256-475c-b307-0788a21f9048" name="Chore" comment="questions: Create question template files">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/b_arrays_and_strings/_18_merge_k_sorted_lists/Merge_K_SortedLists.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/b_arrays_and_strings/_19_trapping_rain_ater/TrappingRainWater.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/b_arrays_and_strings/_20_kth_largest_element_in_an_array/KthLargestElementInAnArray.md" afterDir="false" />
+    <list default="true" id="e9645050-7256-475c-b307-0788a21f9048" name="Changes" comment="Leaning arrays">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dk/learning/learn_dsa/array_and_string/questions/PlusOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dk/learning/learn_dsa/array_and_string/questions/QuestionPlusOne.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/learn_dsa/array_and_string/questions/SolutionFindPivotIndex.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/learn_dsa/array_and_string/questions/QuestionFindPivotIndex.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/learn_dsa/array_and_string/questions/SolutionLargestNumberAtLeastTwiceOfOthers.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/learn_dsa/array_and_string/questions/QuestionLargestNumberAtLeastTwiceOfOthers.md" afterDir="false" />
     </list>
-    <list id="8d4b7f00-2768-4ea3-8c29-23c14594570c" name="Config" comment="config: &#10;" />
+    <list id="8d4b7f00-2768-4ea3-8c29-23c14594570c" name="Config" comment="config: Project config" />
     <list id="5c249fc2-a94d-4763-89b0-c4c4123c0d58" name="Docs" comment="docs: &#10;" />
     <list id="eeb4e8d4-dd58-47e4-8a9b-abbc0e2e9a20" name="Feat" comment="feat: &#10;" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +36,7 @@
     <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
   <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
     <option name="recentBranches">
       <RecentBranches>
         <option name="branchesForRepo">
@@ -58,6 +61,13 @@
       </RecentBranches>
     </option>
   </component>
+  <component name="GithubProjectSettings">
+    <option name="branchProtectionPatterns">
+      <list>
+        <option value="master" />
+      </list>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -72,51 +82,104 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "google-interview",
-    "last_opened_file_path": "C:/dk/Learning/leetcode-practice/src/main/java/dk/learning/google_interview/interview_process/question/interview_process",
+    "last_opened_file_path": "/home/learning/Learn/Learning/Projects/LeetCode/leetcode-practice/src/main/java/dk/learning/learn_dsa/array_and_string/questions",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm"
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/dk/learning/learn_dsa/array_and_string/questions" />
       <recent name="C:\dk\Learning\leetcode-practice\src\main\java\dk\learning\google_interview\interview_process\question\interview_process" />
       <recent name="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/interview_process/questions" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/dk/learning/learn_dsa/array_and_string/questions" />
       <recent name="C:\dk\Learning\leetcode-practice\src\main\java\dk\learning\google_interview\arrays_and_strings\longest_substring_without_repeating_characters" />
       <recent name="C:\dk\Learning\leetcode-practice\src\main\java\dk\learning\google_interview\interview_process\interview_process\odd_even_jump" />
       <recent name="C:\dk\Learning\leetcode-practice\src\main\java\dk\learning\google_interview\interview_process\interview_process\license_key_formatting" />
       <recent name="C:\dk\Learning\leetcode-practice\src\main\java\dk\learning\google_interview\interview_process\interview_process\fruit_into_baskets" />
-      <recent name="C:\dk\Learning\leetcode-practice\src\main\java\dk\learning\google_interview\interview_process\interview_process\unique_email_addresses" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="dk.learning.learn_dsa.array_and_string.questions" />
       <recent name="dk.learning.google_interview.interview_process.solution.my_solution" />
       <recent name="dk.learning.google_interview.interview_process.solution.approved_solution" />
       <recent name="dk.learning.google_interview.interview_process" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="LeetCodePractice" />
+  <component name="RunManager" selected="Application.LargestNumberAtLeastTwiceOfOthers">
+    <configuration name="ArrayIntroduction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dk.learning.learn_dsa.array_and_string.ArrayIntroduction" />
+      <module name="LeetCodePractice.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dk.learning.learn_dsa.array_and_string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="LeetCodePractice" />
-      <option name="filePath" />
+    <configuration name="DynamicArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dk.learning.learn_dsa.array_and_string.DynamicArray" />
+      <module name="LeetCodePractice.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dk.learning.learn_dsa.array_and_string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FindPivotIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dk.learning.learn_dsa.array_and_string.FindPivotIndex" />
+      <module name="LeetCodePractice.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dk.learning.learn_dsa.array_and_string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LargestNumberAtLeastTwiceOfOthers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dk.learning.learn_dsa.array_and_string.LargestNumberAtLeastTwiceOfOthers" />
+      <module name="LeetCodePractice.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dk.learning.learn_dsa.array_and_string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.LargestNumberAtLeastTwiceOfOthers" />
+        <item itemvalue="Application.FindPivotIndex" />
+        <item itemvalue="Application.DynamicArray" />
+        <item itemvalue="Application.ArrayIntroduction" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="e9645050-7256-475c-b307-0788a21f9048" name="Changes" comment="" />
@@ -255,7 +318,105 @@
       <option name="project" value="LOCAL" />
       <updated>1684772265161</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="refactor: Move packages">
+      <created>1684811972938</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1684811972938</updated>
+    </task>
+    <task id="LOCAL-00020" summary="config: Project config">
+      <created>1684812113322</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1684812113322</updated>
+    </task>
+    <task id="LOCAL-00021" summary="config: Project config">
+      <created>1684812130283</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1684812130283</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Leaning arrays">
+      <created>1684813505396</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1684813505396</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Leaning arrays">
+      <created>1684897609244</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1684897609244</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Leaning arrays">
+      <created>1684897665304</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1684897665304</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Leaning arrays">
+      <created>1684899664011</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1684899664011</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Leaning arrays">
+      <created>1684899672640</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1684899672640</updated>
+    </task>
+    <task id="LOCAL-00027" summary="config: Project config">
+      <created>1684899682314</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1684899682314</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Leaning arrays">
+      <created>1685331986803</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1685331986803</updated>
+    </task>
+    <task id="LOCAL-00029" summary="config: Project config">
+      <created>1685331992788</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1685331992788</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Leaning arrays">
+      <created>1685417635836</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1685417635836</updated>
+    </task>
+    <task id="LOCAL-00031" summary="config: Project config">
+      <created>1685417650432</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1685417650432</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Leaning arrays">
+      <created>1685417720300</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1685417720300</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <option name="trackContextForNewChangelist" value="true" />
     <servers />
   </component>
@@ -284,9 +445,11 @@
     <MESSAGE value="config: Project configuration" />
     <MESSAGE value="config: config" />
     <MESSAGE value="question: Find Number of Unique Email Addresses" />
-    <MESSAGE value="refactor: Move packages" />
     <MESSAGE value="questions: Create question template files" />
-    <option name="LAST_COMMIT_MESSAGE" value="questions: Create question template files" />
+    <MESSAGE value="refactor: Move packages" />
+    <MESSAGE value="config: Project config" />
+    <MESSAGE value="Leaning arrays" />
+    <option name="LAST_COMMIT_MESSAGE" value="Leaning arrays" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
