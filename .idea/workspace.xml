@@ -5,11 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9645050-7256-475c-b307-0788a21f9048" name="Changes" comment="Leaning arrays">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dk/learning/learn_dsa/array_and_string/questions/PlusOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dk/learning/learn_dsa/array_and_string/questions/QuestionPlusOne.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dk/learning/learn_dsa/array_and_string/questions/DiagonalTraverse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/learn_dsa/array_and_string/questions/SolutionFindPivotIndex.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/learn_dsa/array_and_string/questions/QuestionFindPivotIndex.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/learn_dsa/array_and_string/questions/SolutionLargestNumberAtLeastTwiceOfOthers.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/learn_dsa/array_and_string/questions/QuestionLargestNumberAtLeastTwiceOfOthers.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/learn_dsa/array_and_string/ArrayIntroduction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/learn_dsa/array_and_string/ArrayIntroduction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/learn_dsa/array_and_string/questions/FindPivotIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/learn_dsa/array_and_string/questions/FindPivotIndex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/learn_dsa/array_and_string/questions/LargestNumberAtLeastTwiceOfOthers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/learn_dsa/array_and_string/questions/LargestNumberAtLeastTwiceOfOthers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/learn_dsa/array_and_string/questions/PlusOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/learn_dsa/array_and_string/questions/PlusOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/learn_dsa/array_and_string/questions/QuestionFindPivotIndex.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/learn_dsa/array_and_string/questions/QnFindPivotIndex.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/learn_dsa/array_and_string/questions/QuestionLargestNumberAtLeastTwiceOfOthers.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/learn_dsa/array_and_string/questions/QnLargestNumberAtLeastTwiceOfOthers.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/learn_dsa/array_and_string/questions/QuestionPlusOne.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/learn_dsa/array_and_string/questions/QnPlusOne.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/practice_dsa/google_interview/b_arrays_and_strings/_3_3_sum/3Sum" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/practice_dsa/google_interview/b_arrays_and_strings/_3_3_sum/3Sum.md" afterDir="false" />
     </list>
     <list id="8d4b7f00-2768-4ea3-8c29-23c14594570c" name="Config" comment="config: Project config" />
     <list id="5c249fc2-a94d-4763-89b0-c4c4123c0d58" name="Docs" comment="docs: &#10;" />
@@ -45,12 +52,12 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="google-interview" />
-                    <option name="lastUsedInstant" value="1684767155" />
+                    <option name="branchName" value="dsa-practice" />
+                    <option name="lastUsedInstant" value="1687272321" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="master" />
-                    <option name="lastUsedInstant" value="1673956749" />
+                    <option name="lastUsedInstant" value="1687272286" />
                   </RecentBranch>
                 </list>
               </option>
@@ -59,13 +66,6 @@
           </list>
         </option>
       </RecentBranches>
-    </option>
-  </component>
-  <component name="GithubProjectSettings">
-    <option name="branchProtectionPatterns">
-      <list>
-        <option value="master" />
-      </list>
     </option>
   </component>
   <component name="MarkdownSettingsMigration">
@@ -83,8 +83,9 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "google-interview",
+    "git-widget-placeholder": "dsa-practice",
     "last_opened_file_path": "/home/learning/Learn/Learning/Projects/LeetCode/leetcode-practice/src/main/java/dk/learning/learn_dsa/array_and_string/questions",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",

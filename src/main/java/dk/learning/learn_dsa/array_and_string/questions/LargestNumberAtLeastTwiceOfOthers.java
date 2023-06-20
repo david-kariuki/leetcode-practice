@@ -1,14 +1,14 @@
 package dk.learning.learn_dsa.array_and_string.questions;
 
 /**
- * @apiNote class
  * @author David Kariuki
  * @version 1.0.0
- * @since 5/23/23 @Question Largest Number At Least Twice of Others
- *     <p>You are given an integer array nums where the largest integer is unique.
- *     <p>Determine whether the largest element in the array is at least twice as much as every
- *     other number in the array. If it is, return the index of the largest element, or return -1
- *     otherwise.
+ * @apiNote class
+ * @since 23/05/23 @Question Largest Number At Least Twice of Others
+ * <p>You are given an integer array nums where the largest integer is unique.
+ * <p>Determine whether the largest element in the array is at least twice as much as every
+ * other number in the array. If it is, return the index of the largest element, or return -1
+ * otherwise.
  */
 public class LargestNumberAtLeastTwiceOfOthers {
 

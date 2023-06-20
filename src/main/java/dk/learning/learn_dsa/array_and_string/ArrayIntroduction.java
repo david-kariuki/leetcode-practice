@@ -2,7 +2,7 @@
  * @author David Kariuki
  * @version 1.0.0
  * @apiNote ArrayIntroduction class
- * @since 5/22/23
+ * @since 22/05/22
  */
 package dk.learning.learn_dsa.array_and_string;
 
