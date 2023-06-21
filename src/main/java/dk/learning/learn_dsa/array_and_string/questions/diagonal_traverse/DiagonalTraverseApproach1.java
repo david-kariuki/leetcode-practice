@@ -52,7 +52,7 @@ public class DiagonalTraverseApproach1 {
 
       // We need to figure out the head of this diagonal
       // The elements in the first row and last column are the respective heads
-      int row = i < rowLength ? 0 :  i - rowLength + 1;
+      int row = i < rowLength ? 0 : i - rowLength + 1;
       int column = i < rowLength ? i : rowLength - 1;
 
       // Iterate until one f the indices goes out of scope
@@ -66,7 +66,7 @@ public class DiagonalTraverseApproach1 {
       if (i % 2 == 0) Collections.reverse(intermediate);
 
       for (int j = 0; j < intermediate.size(); j++) {
-      resultOrderArray[k++] = intermediate.get(j);
+        resultOrderArray[k++] = intermediate.get(j);
       }
     }
 
