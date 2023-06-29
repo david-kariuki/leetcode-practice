@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9645050-7256-475c-b307-0788a21f9048" name="Changes" comment="Leaning arrays">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dk/learning/learn_dsa/array_and_string/questions/PlusOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dk/learning/learn_dsa/array_and_string/questions/QuestionPlusOne.md" afterDir="false" />
+    <list default="true" id="e9645050-7256-475c-b307-0788a21f9048" name="Changes" comment="refactor: Refactor">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dk/learning/learn_dsa/array_and_string/questions/diagonal_traverse/DiagonalTraverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dk/learning/learn_dsa/array_and_string/questions/diagonal_traverse/Solution_Approach_1.mhtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/learn_dsa/array_and_string/questions/SolutionFindPivotIndex.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/learn_dsa/array_and_string/questions/QuestionFindPivotIndex.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/learn_dsa/array_and_string/questions/SolutionLargestNumberAtLeastTwiceOfOthers.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/learn_dsa/array_and_string/questions/QuestionLargestNumberAtLeastTwiceOfOthers.md" afterDir="false" />
     </list>
     <list id="8d4b7f00-2768-4ea3-8c29-23c14594570c" name="Config" comment="config: Project config" />
     <list id="5c249fc2-a94d-4763-89b0-c4c4123c0d58" name="Docs" comment="docs: &#10;" />
@@ -45,12 +43,12 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="google-interview" />
-                    <option name="lastUsedInstant" value="1684767155" />
+                    <option name="branchName" value="dsa-practice" />
+                    <option name="lastUsedInstant" value="1687272321" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="master" />
-                    <option name="lastUsedInstant" value="1673956749" />
+                    <option name="lastUsedInstant" value="1687272286" />
                   </RecentBranch>
                 </list>
               </option>
@@ -59,13 +57,6 @@
           </list>
         </option>
       </RecentBranches>
-    </option>
-  </component>
-  <component name="GithubProjectSettings">
-    <option name="branchProtectionPatterns">
-      <list>
-        <option value="master" />
-      </list>
     </option>
   </component>
   <component name="MarkdownSettingsMigration">
@@ -83,9 +74,10 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "google-interview",
-    "last_opened_file_path": "/home/learning/Learn/Learning/Projects/LeetCode/leetcode-practice/src/main/java/dk/learning/learn_dsa/array_and_string/questions",
+    "git-widget-placeholder": "dsa-practice",
+    "last_opened_file_path": "C:/WD/dk/Learning/leetcode-practice/src/main/java/dk/learning/learn_dsa/array_and_string/questions",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -96,16 +88,17 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\WD\dk\Learning\leetcode-practice\src\main\java\dk\learning\learn_dsa\array_and_string\questions" />
       <recent name="$PROJECT_DIR$/src/main/java/dk/learning/learn_dsa/array_and_string/questions" />
       <recent name="C:\dk\Learning\leetcode-practice\src\main\java\dk\learning\google_interview\interview_process\question\interview_process" />
       <recent name="$PROJECT_DIR$/src/main/java/dk/learning/google_interview/interview_process/questions" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\WD\dk\Learning\leetcode-practice\src\main\java\dk\learning\learn_dsa\array_and_string\questions\diagonal_traverse" />
       <recent name="$PROJECT_DIR$/src/main/java/dk/learning/learn_dsa/array_and_string/questions" />
       <recent name="C:\dk\Learning\leetcode-practice\src\main\java\dk\learning\google_interview\arrays_and_strings\longest_substring_without_repeating_characters" />
       <recent name="C:\dk\Learning\leetcode-practice\src\main\java\dk\learning\google_interview\interview_process\interview_process\odd_even_jump" />
       <recent name="C:\dk\Learning\leetcode-practice\src\main\java\dk\learning\google_interview\interview_process\interview_process\license_key_formatting" />
-      <recent name="C:\dk\Learning\leetcode-practice\src\main\java\dk\learning\google_interview\interview_process\interview_process\fruit_into_baskets" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="dk.learning.learn_dsa.array_and_string.questions" />
@@ -114,13 +107,26 @@
       <recent name="dk.learning.google_interview.interview_process" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LargestNumberAtLeastTwiceOfOthers">
+  <component name="RunManager" selected="Application.DiagonalTraverse">
     <configuration name="ArrayIntroduction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dk.learning.learn_dsa.array_and_string.ArrayIntroduction" />
       <module name="LeetCodePractice.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="dk.learning.learn_dsa.array_and_string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiagonalTraverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dk.learning.learn_dsa.array_and_string.questions.diagonal_traverse.DiagonalTraverse" />
+      <module name="LeetCodePractice.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dk.learning.learn_dsa.array_and_string.questions.diagonal_traverse.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,6 +175,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DiagonalTraverse" />
         <item itemvalue="Application.LargestNumberAtLeastTwiceOfOthers" />
         <item itemvalue="Application.FindPivotIndex" />
         <item itemvalue="Application.DynamicArray" />
@@ -416,7 +423,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685417720300</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="refactor: Refactor">
+      <created>1687273262840</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1687273262840</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <option name="trackContextForNewChangelist" value="true" />
     <servers />
   </component>
@@ -435,7 +449,8 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="feat: Update JUnit version" />
     <MESSAGE value="feat: Create template class" />
@@ -449,7 +464,8 @@
     <MESSAGE value="refactor: Move packages" />
     <MESSAGE value="config: Project config" />
     <MESSAGE value="Leaning arrays" />
-    <option name="LAST_COMMIT_MESSAGE" value="Leaning arrays" />
+    <MESSAGE value="refactor: Refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: Refactor" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

@@ -1,14 +1,16 @@
 /**
- * @note
+ * @apiNote class
  * @author David Kariuki
- * @since 17/01/2023
+ * @version 1.0.0
+ * @Question Title
+ * <p></p>
+ * @since dd/mm/yy
  */
-
 package dk.learning;
 
 public class TemplateClass {
 
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
     }
 }
