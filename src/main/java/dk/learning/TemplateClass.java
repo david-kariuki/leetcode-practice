@@ -1,9 +1,8 @@
 /**
  * @apiNote class
- * @author David Kariuki
- * @Question Title
- * <p>
- * <p>
+ * @author David Kariuki @Question Title
+ *     <p>
+ *     <p>
  * @since dd/mm/23
  */
 package dk.learning;
