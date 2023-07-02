@@ -8,7 +8,7 @@
  * of the merged string.</p>
  * @since 29/06/23
  */
-package dk.learning.leetcode75;
+package dk.learning.leetcode75.merge_string_alternatively;
 
 import static java.lang.Math.max;
 
