@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9645050-7256-475c-b307-0788a21f9048" name="Changes" comment="refactor: Refactor">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dk/learning/leetcode75/greatest_common_divisor_of_strings/GreatestCommonDivisorOfStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dk/learning/leetcode75/greatest_common_divisor_of_strings/GCDOfStringsBruteForceApproach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/TemplateClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/TemplateClass.java" afterDir="false" />
     </list>
     <list id="8d4b7f00-2768-4ea3-8c29-23c14594570c" name="Config" comment="config: Project config" />
     <list id="5c249fc2-a94d-4763-89b0-c4c4123c0d58" name="Docs" comment="docs: &#10;" />
@@ -113,11 +115,11 @@
       <recent name="C:\dk\Learning\leetcode-practice\src\main\java\dk\learning\google_interview\interview_process\interview_process\license_key_formatting" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="dk.learning.leetcode75.greatest_common_divisor_of_strings" />
       <recent name="dk.learning.learn_dsa.array_and_string.questions.spiral_matrix" />
       <recent name="dk.learning.learn_dsa.array_and_string.questions" />
       <recent name="dk.learning.google_interview.interview_process.solution.my_solution" />
       <recent name="dk.learning.google_interview.interview_process.solution.approved_solution" />
-      <recent name="dk.learning.google_interview.interview_process" />
     </key>
   </component>
   <component name="RunManager" selected="Application.DiagonalTraverse">
@@ -471,7 +473,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688293201098</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="refactor: Refactor">
+      <created>1688293419840</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1688293419840</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <option name="trackContextForNewChangelist" value="true" />
     <servers />
   </component>
