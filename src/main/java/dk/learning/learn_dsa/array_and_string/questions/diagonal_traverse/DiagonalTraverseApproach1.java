@@ -2,16 +2,11 @@
  * @apiNote DiagonalTraverse class
  * @author David Kariuki
  * @version 1.0.0
- * @since 20/06/23
- * @Question Diagonal Traverse
+ * @since 20/06/23 @Question Diagonal Traverse
  *     <p>Given an m x n matrix mat, return an array of all the elements, of the array in a diagonal
  *     order.
- *     <p>Constraints:
- *     m == mat.length
- *     n == mat[i].length
- *     1 <= m, n <= 10^4
- *     1 <= m * n <= 10^4
- *     -10^5 <=* mat[i][j] <= 10^5
+ *     <p>Constraints: m == mat.length n == mat[i].length 1 <= m, n <= 10^4 1 <= m * n <= 10^4 -10^5
+ *     <=* mat[i][j] <= 10^5
  */
 package dk.learning.learn_dsa.array_and_string.questions.diagonal_traverse;
 
