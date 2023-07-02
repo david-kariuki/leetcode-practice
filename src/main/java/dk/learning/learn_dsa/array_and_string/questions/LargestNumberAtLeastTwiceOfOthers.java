@@ -2,7 +2,6 @@ package dk.learning.learn_dsa.array_and_string.questions;
 
 /**
  * @author David Kariuki
- * @version 1.0.0
  * @apiNote class
  * @since 23/05/23 @Question Largest Number At Least Twice of Others
  * <p>You are given an integer array nums where the largest integer is unique.

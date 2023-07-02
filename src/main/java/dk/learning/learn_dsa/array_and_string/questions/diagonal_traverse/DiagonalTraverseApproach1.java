@@ -1,7 +1,6 @@
 /**
  * @apiNote DiagonalTraverse class
  * @author David Kariuki
- * @version 1.0.0
  * @since 20/06/23 @Question Diagonal Traverse
  *     <p>Given an m x n matrix mat, return an array of all the elements, of the array in a diagonal
  *     order.
