@@ -6,7 +6,7 @@
  *     additional letters onto the end of the merged string.
  * @since 29/06/23
  */
-package dk.learning.leetcode75.merge_string_alternatively;
+package dk.learning.leetcode75.strings.merge_string_alternatively;
 
 public class MergeStringsAlternatelyTwoPointerApproach {
 

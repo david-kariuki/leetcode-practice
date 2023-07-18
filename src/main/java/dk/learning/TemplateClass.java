@@ -7,6 +7,7 @@
  */
 package dk.learning;
 
+@SuppressWarnings("SpellCheckingInspection")
 public class TemplateClass {
 
     public static void main(String[] args) {
