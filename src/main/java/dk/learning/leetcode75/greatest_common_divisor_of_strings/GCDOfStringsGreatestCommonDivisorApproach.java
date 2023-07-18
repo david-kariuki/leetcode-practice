@@ -25,7 +25,6 @@
  */
 package dk.learning.leetcode75.greatest_common_divisor_of_strings;
 
-
 @SuppressWarnings("SpellCheckingInspection")
 public class GCDOfStringsGreatestCommonDivisorApproach {
 
@@ -47,8 +46,7 @@ public class GCDOfStringsGreatestCommonDivisorApproach {
   }
 
   public static String gcdOfStrings(String str1, String str2) {
-   
+
     return "";
   }
-  
 }
