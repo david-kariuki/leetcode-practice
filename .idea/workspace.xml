@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e9645050-7256-475c-b307-0788a21f9048" name="Changes" comment="refactor: Refactor">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/leetcode75/strings/b_greatest_common_divisor_of_strings/GCDOfStringsBruteForceApproach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/leetcode75/strings/b_greatest_common_divisor_of_strings/GCDOfStringsBruteForceApproach.java" afterDir="false" />
     </list>
     <list id="8d4b7f00-2768-4ea3-8c29-23c14594570c" name="Config" comment="config: Project config" />
     <list id="5c249fc2-a94d-4763-89b0-c4c4123c0d58" name="Docs" comment="docs: &#10;" />
@@ -121,7 +120,7 @@
       <recent name="dk.learning.google_interview.interview_process.solution.my_solution" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.KidsWithTheGreatestNumberOfCandies">
+  <component name="RunManager" selected="Application.GCDOfStringsGreatestCommonDivisorApproach">
     <configuration name="DiagonalTraverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dk.learning.learn_dsa.array_and_string.questions.diagonal_traverse.DiagonalTraverse" />
       <module name="LeetCodePractice.main" />
@@ -135,8 +134,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DynamicArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dk.learning.learn_dsa.array_and_string.DynamicArray" />
+    <configuration name="FindPivotIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dk.learning.learn_dsa.array_and_string.FindPivotIndex" />
       <module name="LeetCodePractice.main" />
       <extension name="coverage">
         <pattern>
@@ -148,12 +147,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindPivotIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dk.learning.learn_dsa.array_and_string.FindPivotIndex" />
+    <configuration name="GCDOfStringsGreatestCommonDivisorApproach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dk.learning.leetcode75.strings.b_greatest_common_divisor_of_strings.GCDOfStringsGreatestCommonDivisorApproach" />
       <module name="LeetCodePractice.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dk.learning.learn_dsa.array_and_string.*" />
+          <option name="PATTERN" value="dk.learning.leetcode75.strings.b_greatest_common_divisor_of_strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -189,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GCDOfStringsGreatestCommonDivisorApproach" />
         <item itemvalue="Application.KidsWithTheGreatestNumberOfCandies" />
         <item itemvalue="Application.DiagonalTraverse" />
         <item itemvalue="Application.LargestNumberAtLeastTwiceOfOthers" />
         <item itemvalue="Application.FindPivotIndex" />
-        <item itemvalue="Application.DynamicArray" />
       </list>
     </recent_temporary>
   </component>
@@ -535,7 +534,21 @@
       <option name="project" value="LOCAL" />
       <updated>1689873128223</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="refactor: Refactor">
+      <created>1689874738832</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1689874738832</updated>
+    </task>
+    <task id="LOCAL-00048" summary="refactor: Refactor">
+      <created>1689877851162</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1689877851162</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <option name="trackContextForNewChangelist" value="true" />
     <servers />
   </component>
