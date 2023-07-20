@@ -20,7 +20,7 @@
  * @spacecomplexity O( m + n) We need to compare the two concatenations of length O(m + n).
  * @since 02/07/23
  */
-package dk.learning.leetcode75.strings.b_greatest_common_divisor_of_strings;
+package dk.learning.leetcode75.strings._2_greatest_common_divisor_of_strings;
 
 @SuppressWarnings("SpellCheckingInspection")
 public class GCDOfStringsGreatestCommonDivisorApproach {

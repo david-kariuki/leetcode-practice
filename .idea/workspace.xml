@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9645050-7256-475c-b307-0788a21f9048" name="Changes" comment="refactor: Refactor">
+    <list default="true" id="e9645050-7256-475c-b307-0788a21f9048" name="Changes" comment="chore: LeetCode75">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dk/learning/leetcode75/strings/_4_can_place_flowers/CanPlaceFlowers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/TemplateClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/TemplateClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/leetcode75/strings/KidsWithTheGreatestNumberOfCandies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/leetcode75/strings/_3_kids_with_greatest_no_of_candies/KidsWithTheGreatestNumberOfCandies.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/leetcode75/strings/a_merge_string_alternatively/MergeStringsAlternatelyOnePointerApproach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/leetcode75/strings/_1_merge_string_alternatively/MergeStringsAlternatelyOnePointerApproach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/leetcode75/strings/a_merge_string_alternatively/MergeStringsAlternatelyTwoPointerApproach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/leetcode75/strings/_1_merge_string_alternatively/MergeStringsAlternatelyTwoPointerApproach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/leetcode75/strings/b_greatest_common_divisor_of_strings/GCDOfStringsBruteForceApproach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/leetcode75/strings/_2_greatest_common_divisor_of_strings/GCDOfStringsBruteForceApproach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/leetcode75/strings/b_greatest_common_divisor_of_strings/GCDOfStringsGreatestCommonDivisorApproach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/leetcode75/strings/_2_greatest_common_divisor_of_strings/GCDOfStringsGreatestCommonDivisorApproach.java" afterDir="false" />
     </list>
     <list id="8d4b7f00-2768-4ea3-8c29-23c14594570c" name="Config" comment="config: Project config" />
     <list id="5c249fc2-a94d-4763-89b0-c4c4123c0d58" name="Docs" comment="docs: &#10;" />
@@ -24,6 +31,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="package-info" />
       </list>
     </option>
   </component>
@@ -113,11 +121,11 @@
       <recent name="C:\dk\Learning\leetcode-practice\src\main\java\dk\learning\google_interview\interview_process\interview_process\license_key_formatting" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="dk.learning.leetcode75.strings._4_can_place_flowers" />
       <recent name="dk.learning.leetcode75.strings" />
       <recent name="dk.learning.leetcode75.greatest_common_divisor_of_strings" />
       <recent name="dk.learning.learn_dsa.array_and_string.questions.spiral_matrix" />
       <recent name="dk.learning.learn_dsa.array_and_string.questions" />
-      <recent name="dk.learning.google_interview.interview_process.solution.my_solution" />
     </key>
   </component>
   <component name="RunManager" selected="Application.GCDOfStringsGreatestCommonDivisorApproach">
@@ -148,11 +156,11 @@
       </method>
     </configuration>
     <configuration name="GCDOfStringsGreatestCommonDivisorApproach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dk.learning.leetcode75.strings.b_greatest_common_divisor_of_strings.GCDOfStringsGreatestCommonDivisorApproach" />
+      <option name="MAIN_CLASS_NAME" value="dk.learning.leetcode75.strings._2_greatest_common_divisor_of_strings.GCDOfStringsGreatestCommonDivisorApproach" />
       <module name="LeetCodePractice.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dk.learning.leetcode75.strings.b_greatest_common_divisor_of_strings.*" />
+          <option name="PATTERN" value="dk.learning.leetcode75.strings._2_greatest_common_divisor_of_strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,11 +169,11 @@
       </method>
     </configuration>
     <configuration name="KidsWithTheGreatestNumberOfCandies" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dk.learning.leetcode75.strings.KidsWithTheGreatestNumberOfCandies" />
+      <option name="MAIN_CLASS_NAME" value="dk.learning.leetcode75.strings._3_kids_with_greatest_no_of_candies.KidsWithTheGreatestNumberOfCandies" />
       <module name="LeetCodePractice.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dk.learning.leetcode75.strings.*" />
+          <option name="PATTERN" value="dk.learning.leetcode75.strings._3_kids_with_greatest_no_of_candies.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -208,14 +216,6 @@
       <option name="presentableId" value="Default" />
       <updated>1673955140299</updated>
       <workItem from="1673955142928" duration="5867000" />
-    </task>
-    <task id="LOCAL-00001" summary="Feat">
-      <changelist id="eeb4e8d4-dd58-47e4-8a9b-abbc0e2e9a20" name="Feat" comment="feat: &#10;" />
-      <created>1673956878801</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1673956878801</updated>
     </task>
     <task id="LOCAL-00002" summary="Config">
       <changelist id="8d4b7f00-2768-4ea3-8c29-23c14594570c" name="Config" comment="config: &#10;" />
@@ -548,7 +548,21 @@
       <option name="project" value="LOCAL" />
       <updated>1689877851162</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="chore: LeetCode75">
+      <created>1689877977357</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1689877977357</updated>
+    </task>
+    <task id="LOCAL-00050" summary="config: Project config">
+      <created>1689877987303</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1689877987303</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <option name="trackContextForNewChangelist" value="true" />
     <servers />
   </component>
@@ -582,9 +596,11 @@
     <MESSAGE value="questions: Create question template files" />
     <MESSAGE value="refactor: Move packages" />
     <MESSAGE value="Leaning arrays" />
-    <MESSAGE value="config: Project config" />
     <MESSAGE value="refactor: Refactor" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: Refactor" />
+    <MESSAGE value="learn: LeetCode75" />
+    <MESSAGE value="config: Project config" />
+    <MESSAGE value="chore: LeetCode75" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: LeetCode75" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

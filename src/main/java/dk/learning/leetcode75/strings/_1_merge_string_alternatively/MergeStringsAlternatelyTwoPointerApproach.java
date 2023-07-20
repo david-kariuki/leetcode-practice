@@ -1,7 +1,7 @@
 /**
- * @apiNote MergeStringsAlternatelyOnePointerApproach class
+ * @apiNote MergeStringsAlternatelyTwoPointerApproach class
  * @author David Kariuki
- * @question Merge Strings Alternately One Pointer Approach
+ * @question Merge Strings Alternately Two Pointer Approach
  *     <p>You are given two strings word1 and word2. Merge the strings by adding letters in
  *     alternating order, starting with word1. If a string is longer than the other, append the
  *     additional letters onto the end of the merged string.
@@ -33,20 +33,18 @@
  * @see <a
  *     href="https://leetcode.com/problems/merge-strings-alternately/?envType=study-plan-v2&envId=leetcode-75">
  *     Merge Strings Alternately</a>
- * @complexityanalysis Complexity Analysis Here, mmm is the length of word1 and nnn is the length of
- *     word2.
- * @timecomplexity Time complexity O(m + n)
- *     <p>We iterate over word1 and word2 once pushing their letters into result. It would take O(m
- *     + n) time.
- * @spacecomplexity Space complexity: O(1)
+ * @complexityanalysis Complexity Analysis
+ *     <p>>Here, mmm is the length of word1 and nnn is the length of word2.
+ * @timecomplexity Time complexity O(m+n)
+ *     <p>We iterate over word1 and word2 once and push their letters into result. It would take
+ *     O(m+n) time.
+ * @spacecomplexity Space complexity O(1)
  *     <p>Without considering the space consumed by the input strings (word1 and word2) and the
  *     output string (result), we do not use more than constant space.
  */
-package dk.learning.leetcode75.strings.a_merge_string_alternatively;
+package dk.learning.leetcode75.strings._1_merge_string_alternatively;
 
-import static java.lang.Math.max;
-
-public class MergeStringsAlternatelyOnePointerApproach {
+public class MergeStringsAlternatelyTwoPointerApproach {
 
   public static void main(String[] args) {
     String word1 = "abc", word2 = "pqrs";
@@ -56,11 +54,12 @@ public class MergeStringsAlternatelyOnePointerApproach {
   public static String mergeAlternately(String word1, String word2) {
 
     StringBuilder result = new StringBuilder();
-    int m = word1.length(), n = word2.length();
+    int i = 0, j = 0;
+    int word1Length = word1.length(), word2Length = word2.length();
 
-    for (int i = 0; i < max(m, n); i++) {
-      if (i < m) result.append(word1.charAt(i));
-      if (i < n) result.append(word2.charAt(i));
+    while (i < word1Length || j < word2Length) {
+      if (i < word1Length) result.append(word1.charAt(i++));
+      if (j < word2Length) result.append(word2.charAt(j++));
     }
 
     return result.toString();

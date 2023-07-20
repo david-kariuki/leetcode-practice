@@ -27,7 +27,7 @@
  * @spacecomplexity Space complexity: O(min(m,n))
  *     <p>We need to keep a copy of base in each iteration, which takes O(min(m,n)) space.
  */
-package dk.learning.leetcode75.strings.b_greatest_common_divisor_of_strings;
+package dk.learning.leetcode75.strings._2_greatest_common_divisor_of_strings;
 
 import static java.lang.Math.min;
 
