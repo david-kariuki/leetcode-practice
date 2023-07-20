@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e9645050-7256-475c-b307-0788a21f9048" name="Changes" comment="refactor: Refactor">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/leetcode75/strings/a_merge_string_alternatively/MergeStringsAlternatelyTwoPointerApproach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/leetcode75/strings/a_merge_string_alternatively/MergeStringsAlternatelyTwoPointerApproach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/leetcode75/strings/b_greatest_common_divisor_of_strings/GCDOfStringsBruteForceApproach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/leetcode75/strings/b_greatest_common_divisor_of_strings/GCDOfStringsBruteForceApproach.java" afterDir="false" />
     </list>
     <list id="8d4b7f00-2768-4ea3-8c29-23c14594570c" name="Config" comment="config: Project config" />
     <list id="5c249fc2-a94d-4763-89b0-c4c4123c0d58" name="Docs" comment="docs: &#10;" />
@@ -61,6 +61,13 @@
           </list>
         </option>
       </RecentBranches>
+    </option>
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="branchProtectionPatterns">
+      <list>
+        <option value="master" />
+      </list>
     </option>
   </component>
   <component name="MarkdownSettingsMigration">
@@ -521,7 +528,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689825331523</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="refactor: Refactor">
+      <created>1689873128223</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1689873128223</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <option name="trackContextForNewChangelist" value="true" />
     <servers />
   </component>
