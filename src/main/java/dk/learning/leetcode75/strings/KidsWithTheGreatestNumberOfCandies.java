@@ -48,7 +48,6 @@ public class KidsWithTheGreatestNumberOfCandies {
   public static void main(String[] args) {
 
     // Example 1:
-
     int[] candies = {2, 3, 5, 1, 3};
     int extraCandies = 3;
     System.out.printf(
