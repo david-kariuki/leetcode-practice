@@ -1,8 +1,11 @@
 /**
  * @apiNote class
- * @author David Kariuki @Question Title
+ * @author David Kariuki
+ * @question Title
  *     <p>
- *     <p>
+ * @example
+ * @example
+ * @constraints
  * @since dd/mm/23
  */
 package dk.learning;
@@ -10,7 +13,5 @@ package dk.learning;
 @SuppressWarnings("SpellCheckingInspection")
 public class TemplateClass {
 
-    public static void main(String[] args) {
-
-    }
+  public static void main(String[] args) {}
 }
