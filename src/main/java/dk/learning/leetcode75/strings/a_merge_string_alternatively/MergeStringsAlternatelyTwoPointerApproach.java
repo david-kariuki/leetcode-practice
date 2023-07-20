@@ -36,7 +36,8 @@
  * @complexityanalysis Complexity Analysis
  *     <p>>Here, mmm is the length of word1 and nnn is the length of word2.
  * @timecomplexity Time complexity O(m+n)
- *     <p>We iterate over word1 and word2 once and push their letters into result. It would take O(m+n) time.
+ *     <p>We iterate over word1 and word2 once and push their letters into result. It would take
+ *     O(m+n) time.
  * @spacecomplexity Space complexity O(1)
  *     <p>Without considering the space consumed by the input strings (word1 and word2) and the
  *     output string (result), we do not use more than constant space.
