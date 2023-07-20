@@ -7,7 +7,6 @@
     <list default="true" id="e9645050-7256-475c-b307-0788a21f9048" name="Changes" comment="refactor: Refactor">
       <change afterPath="$PROJECT_DIR$/src/main/java/dk/learning/leetcode75/strings/KidsWithTheGreatestNumberOfCandies.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/TemplateClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/TemplateClass.java" afterDir="false" />
     </list>
     <list id="8d4b7f00-2768-4ea3-8c29-23c14594570c" name="Config" comment="config: Project config" />
     <list id="5c249fc2-a94d-4763-89b0-c4c4123c0d58" name="Docs" comment="docs: &#10;" />
@@ -115,20 +114,7 @@
       <recent name="dk.learning.google_interview.interview_process.solution.my_solution" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DiagonalTraverse">
-    <configuration name="ArrayIntroduction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dk.learning.learn_dsa.array_and_string.ArrayIntroduction" />
-      <module name="LeetCodePractice.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dk.learning.learn_dsa.array_and_string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.KidsWithTheGreatestNumberOfCandies">
     <configuration name="DiagonalTraverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dk.learning.learn_dsa.array_and_string.questions.diagonal_traverse.DiagonalTraverse" />
       <module name="LeetCodePractice.main" />
@@ -168,6 +154,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="KidsWithTheGreatestNumberOfCandies" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dk.learning.leetcode75.strings.KidsWithTheGreatestNumberOfCandies" />
+      <module name="LeetCodePractice.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dk.learning.leetcode75.strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LargestNumberAtLeastTwiceOfOthers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dk.learning.learn_dsa.array_and_string.LargestNumberAtLeastTwiceOfOthers" />
       <module name="LeetCodePractice.main" />
@@ -183,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KidsWithTheGreatestNumberOfCandies" />
         <item itemvalue="Application.DiagonalTraverse" />
         <item itemvalue="Application.LargestNumberAtLeastTwiceOfOthers" />
         <item itemvalue="Application.FindPivotIndex" />
         <item itemvalue="Application.DynamicArray" />
-        <item itemvalue="Application.ArrayIntroduction" />
       </list>
     </recent_temporary>
   </component>
@@ -487,7 +486,21 @@
       <option name="project" value="LOCAL" />
       <updated>1689820818039</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="config: Project config">
+      <created>1689821945801</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1689821945801</updated>
+    </task>
+    <task id="LOCAL-00042" summary="refactor: Refactor">
+      <created>1689821950578</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1689821950578</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <option name="trackContextForNewChangelist" value="true" />
     <servers />
   </component>
@@ -520,8 +533,8 @@
     <MESSAGE value="question: Find Number of Unique Email Addresses" />
     <MESSAGE value="questions: Create question template files" />
     <MESSAGE value="refactor: Move packages" />
-    <MESSAGE value="config: Project config" />
     <MESSAGE value="Leaning arrays" />
+    <MESSAGE value="config: Project config" />
     <MESSAGE value="refactor: Refactor" />
     <option name="LAST_COMMIT_MESSAGE" value="refactor: Refactor" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
