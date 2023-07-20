@@ -7,6 +7,7 @@
     <list default="true" id="e9645050-7256-475c-b307-0788a21f9048" name="Changes" comment="refactor: Refactor">
       <change afterPath="$PROJECT_DIR$/src/main/java/dk/learning/leetcode75/strings/KidsWithTheGreatestNumberOfCandies.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/TemplateClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/TemplateClass.java" afterDir="false" />
     </list>
     <list id="8d4b7f00-2768-4ea3-8c29-23c14594570c" name="Config" comment="config: Project config" />
     <list id="5c249fc2-a94d-4763-89b0-c4c4123c0d58" name="Docs" comment="docs: &#10;" />
@@ -500,7 +501,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689821950578</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="refactor: Refactor">
+      <created>1689824052266</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1689824052266</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <option name="trackContextForNewChangelist" value="true" />
     <servers />
   </component>
