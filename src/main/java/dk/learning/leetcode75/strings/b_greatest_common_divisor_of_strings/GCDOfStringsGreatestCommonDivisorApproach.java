@@ -23,7 +23,7 @@
  *     copy of base in each iteration, which takes O(min(m,n))O(\min(m, n))O(min(m,n)) space.
  * @since 02/07/23
  */
-package dk.learning.leetcode75.strings.greatest_common_divisor_of_strings;
+package dk.learning.leetcode75.strings.b_greatest_common_divisor_of_strings;
 
 @SuppressWarnings("SpellCheckingInspection")
 public class GCDOfStringsGreatestCommonDivisorApproach {
