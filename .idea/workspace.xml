@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e9645050-7256-475c-b307-0788a21f9048" name="Changes" comment="chore: LeetCode75">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/TemplateClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/TemplateClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/leetcode75/strings/_4_can_place_flowers/CanPlaceFlowers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/leetcode75/strings/_4_can_place_flowers/CanPlaceFlowers.java" afterDir="false" />
     </list>
     <list id="8d4b7f00-2768-4ea3-8c29-23c14594570c" name="Config" comment="config: Project config" />
@@ -123,13 +122,13 @@
       <recent name="dk.learning.learn_dsa.array_and_string.questions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GCDOfStringsGreatestCommonDivisorApproach">
-    <configuration name="DiagonalTraverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dk.learning.learn_dsa.array_and_string.questions.diagonal_traverse.DiagonalTraverse" />
+  <component name="RunManager" selected="Application.CanPlaceFlowers">
+    <configuration name="CanPlaceFlowers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dk.learning.leetcode75.strings._4_can_place_flowers.CanPlaceFlowers" />
       <module name="LeetCodePractice.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dk.learning.learn_dsa.array_and_string.questions.diagonal_traverse.*" />
+          <option name="PATTERN" value="dk.learning.leetcode75.strings._4_can_place_flowers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindPivotIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dk.learning.learn_dsa.array_and_string.FindPivotIndex" />
+    <configuration name="DiagonalTraverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dk.learning.learn_dsa.array_and_string.questions.diagonal_traverse.DiagonalTraverse" />
       <module name="LeetCodePractice.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dk.learning.learn_dsa.array_and_string.*" />
+          <option name="PATTERN" value="dk.learning.learn_dsa.array_and_string.questions.diagonal_traverse.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -191,11 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CanPlaceFlowers" />
         <item itemvalue="Application.GCDOfStringsGreatestCommonDivisorApproach" />
         <item itemvalue="Application.KidsWithTheGreatestNumberOfCandies" />
         <item itemvalue="Application.DiagonalTraverse" />
         <item itemvalue="Application.LargestNumberAtLeastTwiceOfOthers" />
-        <item itemvalue="Application.FindPivotIndex" />
       </list>
     </recent_temporary>
   </component>
@@ -211,14 +210,6 @@
       <option name="presentableId" value="Default" />
       <updated>1673955140299</updated>
       <workItem from="1673955142928" duration="5867000" />
-    </task>
-    <task id="LOCAL-00003" summary="Docs">
-      <changelist id="5c249fc2-a94d-4763-89b0-c4c4123c0d58" name="Docs" comment="docs: &#10;" />
-      <created>1673956909307</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1673956909307</updated>
     </task>
     <task id="LOCAL-00004" summary="feat: Update JUnit version">
       <created>1673962742859</created>
@@ -556,7 +547,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689878254917</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="chore: LeetCode75">
+      <created>1689878491775</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1689878491775</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <option name="trackContextForNewChangelist" value="true" />
     <servers />
   </component>
