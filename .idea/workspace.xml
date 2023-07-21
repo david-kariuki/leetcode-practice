@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9645050-7256-475c-b307-0788a21f9048" name="Changes" comment="chore: LeetCode75">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/leetcode75/strings/_4_can_place_flowers/CanPlaceFlowers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/leetcode75/strings/_4_can_place_flowers/CanPlaceFlowers.java" afterDir="false" />
     </list>
     <list id="8d4b7f00-2768-4ea3-8c29-23c14594570c" name="Config" comment="config: Project config" />
@@ -210,13 +209,6 @@
       <option name="presentableId" value="Default" />
       <updated>1673955140299</updated>
       <workItem from="1673955142928" duration="5867000" />
-    </task>
-    <task id="LOCAL-00004" summary="feat: Update JUnit version">
-      <created>1673962742859</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1673962742859</updated>
     </task>
     <task id="LOCAL-00005" summary="feat: Create template class">
       <created>1673962754120</created>
@@ -554,7 +546,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689878491775</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="chore: LeetCode75">
+      <created>1689910056780</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1689910056780</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <option name="trackContextForNewChangelist" value="true" />
     <servers />
   </component>

@@ -48,8 +48,8 @@ public class CanPlaceFlowers {
     n = 2;
     flowerbed = new int[] {1, 0, 0, 0, 0, 0, 0, 0, 1};
     System.out.printf(
-            "\n\n%s flower(s) planted without violating adjacent rule %s",
-            n, canPlaceFlowers(flowerbed, n));
+        "\n\n%s flower(s) planted without violating adjacent rule %s",
+        n, canPlaceFlowers(flowerbed, n));
   }
 
   public static boolean canPlaceFlowers(int[] flowerbed, int n) {
