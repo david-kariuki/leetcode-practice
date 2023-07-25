@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9645050-7256-475c-b307-0788a21f9048" name="Changes" comment="chore: LeetCode75">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/leetcode75/strings/_3_kids_with_greatest_no_of_candies/KidsWithTheGreatestNumberOfCandies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/leetcode75/strings/_3_kids_with_greatest_no_of_candies/KidsWithTheGreatestNumberOfCandies.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/leetcode75/strings/_4_can_place_flowers/CanPlaceFlowers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/leetcode75/strings/_4_can_place_flowers/CanPlaceFlowersSingleScanApproach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/leetcode75/strings/_4_can_place_flowers/CanPlaceFlowersSingleScanApproach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/leetcode75/strings/_4_can_place_flowers/CanPlaceFlowersSingleScanApproach.java" afterDir="false" />
     </list>
     <list id="8d4b7f00-2768-4ea3-8c29-23c14594570c" name="Config" comment="config: Project config" />
     <list id="5c249fc2-a94d-4763-89b0-c4c4123c0d58" name="Docs" comment="docs: &#10;" />
@@ -208,21 +206,7 @@
       <workItem from="1673955142928" duration="5867000" />
       <workItem from="1690195016168" duration="659000" />
       <workItem from="1690265566656" duration="1987000" />
-      <workItem from="1690289870191" duration="3214000" />
-    </task>
-    <task id="LOCAL-00009" summary="docs: Add interview questions">
-      <created>1673962869465</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1673962869465</updated>
-    </task>
-    <task id="LOCAL-00010" summary="config: Project configuration">
-      <created>1673962886257</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1673962886257</updated>
+      <workItem from="1690289870191" duration="3904000" />
     </task>
     <task id="LOCAL-00011" summary="config: config">
       <created>1684769830994</created>
@@ -553,7 +537,21 @@
       <option name="project" value="LOCAL" />
       <updated>1690293186322</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="chore: LeetCode75">
+      <created>1690293458599</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1690293458599</updated>
+    </task>
+    <task id="LOCAL-00059" summary="chore: LeetCode75">
+      <created>1690294084203</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1690294084203</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <option name="trackContextForNewChangelist" value="true" />
     <servers />
   </component>

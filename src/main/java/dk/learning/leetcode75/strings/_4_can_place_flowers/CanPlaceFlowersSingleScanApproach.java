@@ -14,8 +14,7 @@
  *     <p>Input: flowerbed = [1,0,0,0,1], n = 2
  *     <p>Output: false
  * @constraints
- *     <p>1 <= flowerbed.length <= 2 *
- *     <p>104
+ *     <p>1 <= flowerbed.length <= 2 * 10^4
  *     <p>flowerbed[i] is 0 or 1.
  *     <p>There are no two adjacent flowers in flowerbed.
  *     <p>0 <= n <= flowerbed.length
