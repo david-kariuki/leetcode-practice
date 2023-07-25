@@ -26,6 +26,8 @@
  */
 package dk.learning.leetcode75.strings._4_can_place_flowers;
 
+import java.util.Arrays;
+
 public class CanPlaceFlowers {
 
   public static void main(String[] args) {
@@ -34,41 +36,38 @@ public class CanPlaceFlowers {
     int n = 1;
     int[] flowerbed = {1, 0, 0, 0, 1};
     System.out.printf(
-        "\n\n%s flower(s) planted without violating adjacent rule %s",
-        n, canPlaceFlowers(flowerbed, n));
+        "\n\n%s flower(s) planted in %s without violating adjacent rule %s",
+        n, Arrays.toString(flowerbed), canPlaceFlowers(flowerbed, n));
 
     // Example 2:
     n = 2;
     flowerbed = new int[] {1, 0, 0, 0, 1};
     System.out.printf(
-        "\n\n%s flower(s) planted without violating adjacent rule %s",
-        n, canPlaceFlowers(flowerbed, n));
+        "\n\n%s flower(s) planted in %s without violating adjacent rule %s",
+        n, Arrays.toString(flowerbed), canPlaceFlowers(flowerbed, n));
 
     // Example 3:
     n = 2;
     flowerbed = new int[] {1, 0, 0, 0, 0, 0, 0, 0, 1};
     System.out.printf(
-        "\n\n%s flower(s) planted without violating adjacent rule %s",
-        n, canPlaceFlowers(flowerbed, n));
+        "\n\n%s flower(s) planted in %s without violating adjacent rule %s",
+        n, Arrays.toString(flowerbed), canPlaceFlowers(flowerbed, n));
   }
 
   public static boolean canPlaceFlowers(int[] flowerbed, int n) {
 
+    int count = 0;
     for (int i = 0; i < flowerbed.length; i++) {
-      if (n == 0) return true; // Check planting count
-      if (flowerbed[i] == 1) continue; // Skip if current position planted
+      if (flowerbed[i] == 0) {
+        boolean leftNotPlanted = (i == 0) || (flowerbed[i - 1] == 0);
+        boolean rightNotPlanted = (i == flowerbed.length - 1) || (flowerbed[i + 1] == 0);
 
-      if (i == 0 && flowerbed[i + 1] == 0) {
-        flowerbed[i] = 1;
-        continue;
-      }
-
-      if ((flowerbed[i] == 0) && (flowerbed[i - 1] == 0) && (flowerbed[i + 1] == 0)) {
-        flowerbed[i] = 1;
-        n--;
+        if (leftNotPlanted && rightNotPlanted) {
+          flowerbed[i] = 1;
+          count++;
+        }
       }
     }
-
-    return false;
+    return count >= n;
   }
 }
