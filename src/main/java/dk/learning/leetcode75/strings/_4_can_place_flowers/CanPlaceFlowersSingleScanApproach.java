@@ -19,7 +19,10 @@
  *     <p>flowerbed[i] is 0 or 1.
  *     <p>There are no two adjacent flowers in flowerbed.
  *     <p>0 <= n <= flowerbed.length
- * @since 20/07/23
+ * @complexityanalysis
+ * @timecomplexity: O(n). A single scan of the flowerbed array, of size n is done.
+ * @spacecomplexity: O(1). Constant extra space is used.
+ * @since 25/07/23
  * @see <a
  *     href="https://leetcode.com/problems/can-place-flowers/?envType=study-plan-v2&envId=leetcode-75">
  *     Can Place Flowers</a>
