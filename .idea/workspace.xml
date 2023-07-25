@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9645050-7256-475c-b307-0788a21f9048" name="Changes" comment="chore: LeetCode75">
-      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/TemplateClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/TemplateClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/leetcode75/strings/_4_can_place_flowers/CanPlaceFlowers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/leetcode75/strings/_4_can_place_flowers/CanPlaceFlowers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/leetcode75/strings/_3_kids_with_greatest_no_of_candies/KidsWithTheGreatestNumberOfCandies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/leetcode75/strings/_3_kids_with_greatest_no_of_candies/KidsWithTheGreatestNumberOfCandies.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/leetcode75/strings/_4_can_place_flowers/CanPlaceFlowers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/leetcode75/strings/_4_can_place_flowers/CanPlaceFlowersSingleScanApproach.java" afterDir="false" />
     </list>
     <list id="8d4b7f00-2768-4ea3-8c29-23c14594570c" name="Config" comment="config: Project config" />
     <list id="5c249fc2-a94d-4763-89b0-c4c4123c0d58" name="Docs" comment="docs: &#10;" />
@@ -117,9 +118,9 @@
       <recent name="dk.learning.learn_dsa.array_and_string.questions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CanPlaceFlowers">
-    <configuration name="CanPlaceFlowers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dk.learning.leetcode75.strings._4_can_place_flowers.CanPlaceFlowers" />
+  <component name="RunManager" selected="Application.CanPlaceFlowersSingleScanApproach">
+    <configuration name="CanPlaceFlowersSingleScanApproach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dk.learning.leetcode75.strings._4_can_place_flowers.CanPlaceFlowersSingleScanApproach" />
       <module name="LeetCodePractice.main" />
       <extension name="coverage">
         <pattern>
@@ -185,7 +186,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CanPlaceFlowers" />
+        <item itemvalue="Application.CanPlaceFlowersSingleScanApproach" />
         <item itemvalue="Application.GCDOfStringsGreatestCommonDivisorApproach" />
         <item itemvalue="Application.KidsWithTheGreatestNumberOfCandies" />
         <item itemvalue="Application.DiagonalTraverse" />
@@ -207,14 +208,7 @@
       <workItem from="1673955142928" duration="5867000" />
       <workItem from="1690195016168" duration="659000" />
       <workItem from="1690265566656" duration="1987000" />
-      <workItem from="1690289870191" duration="2944000" />
-    </task>
-    <task id="LOCAL-00008" summary="config: Project configuration">
-      <created>1673962853453</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1673962853453</updated>
+      <workItem from="1690289870191" duration="3214000" />
     </task>
     <task id="LOCAL-00009" summary="docs: Add interview questions">
       <created>1673962869465</created>
@@ -552,7 +546,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690292963456</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="chore: LeetCode75">
+      <created>1690293186322</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1690293186322</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <option name="trackContextForNewChangelist" value="true" />
     <servers />
   </component>

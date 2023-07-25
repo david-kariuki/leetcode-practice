@@ -32,6 +32,17 @@
  *     <p>2 <= n <= 100
  *     <p>1 <= candies[i] <= 100
  *     <p>1 <= extraCandies <= 50
+ * @complexityanalysis
+ *     <p>Here, n is the number of kids.
+ * @timecomplexity: O(n)
+ *     <p>We iterate over the candies array to find out maxCandies which takes O(n) time.
+ *     <p>We iterate over the candies array once more.
+ *     <p>We check for each kid whether they will have the most candies among all the children after
+ *     receiving extraCandies and push the result in result which takes O(1) time. It requires O(n)
+ *     time for n kids.
+ * @spacecomplexity: O(1)
+ *     <p>Without counting the space of input and output, we are not using any space except for some
+ *     integers like maxCandies and candy.
  * @since 20/07/23
  * @see <a href="https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/">Kids With
  *     the Greatest Number of Candies</a>

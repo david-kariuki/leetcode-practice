@@ -28,7 +28,7 @@ package dk.learning.leetcode75.strings._4_can_place_flowers;
 
 import java.util.Arrays;
 
-public class CanPlaceFlowers {
+public class CanPlaceFlowersSingleScanApproach {
 
   public static void main(String[] args) {
 
