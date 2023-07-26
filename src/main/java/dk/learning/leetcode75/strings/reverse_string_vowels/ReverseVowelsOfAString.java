@@ -22,6 +22,8 @@
  */
 package dk.learning.leetcode75.strings.reverse_string_vowels;
 
+import java.util.Arrays;
+
 public class ReverseVowelsOfAString {
 
   public static void main(String[] args) {
@@ -37,19 +39,32 @@ public class ReverseVowelsOfAString {
 
   public static String reverseVowels(String string) {
 
-    char currentVowel;
-    for (int i = 0; i < string.length(); i++) {
-      for (int j = 0; j < string.length(); j++) {
-      if (isVowel(string.charAt(i)) {
+    char[] stringArray = string.toCharArray();
+    Character previousVowel = null, nextVowel = null;
 
-      }
+    for (int i = 0; i < stringArray.length; i++) {
+      if (!isVowel(stringArray[i])) continue;
+
+      previousVowel = stringArray[i];
+
+      for (int j = i + 1; j < stringArray.length; j++) {
+        if (!isVowel(stringArray[j])) continue;
+
+        nextVowel = stringArray[j];
+
+        stringArray[i] = nextVowel;
+        stringArray[j] = previousVowel;
       }
     }
+    return Arrays.toString(stringArray);
   }
 
   public static boolean isVowel(Character character) {
     character = Character.toLowerCase(character);
-    return (character.equals('a') || character.equals('e') || character.equals('i')
-            || character.equals('o') || character.equals('u'));
+    return (character.equals('a')
+        || character.equals('e')
+        || character.equals('i')
+        || character.equals('o')
+        || character.equals('u'));
   }
 }

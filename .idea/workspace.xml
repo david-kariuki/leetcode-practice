@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9645050-7256-475c-b307-0788a21f9048" name="Changes" comment="chore: LeetCode75">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dk/learning/leetcode75/strings/reverse_string_vowels/ReverseVowelsOfAString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/leetcode75/strings/reverse_string_vowels/ReverseVowelsOfAString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/leetcode75/strings/reverse_string_vowels/ReverseVowelsOfAString.java" afterDir="false" />
     </list>
     <list id="8d4b7f00-2768-4ea3-8c29-23c14594570c" name="Config" comment="config: Project config" />
     <list id="5c249fc2-a94d-4763-89b0-c4c4123c0d58" name="Docs" comment="docs: &#10;" />
@@ -64,13 +64,6 @@
       </RecentBranches>
     </option>
   </component>
-  <component name="GithubProjectSettings">
-    <option name="branchProtectionPatterns">
-      <list>
-        <option value="master" />
-      </list>
-    </option>
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -124,7 +117,7 @@
       <recent name="dk.learning.learn_dsa.array_and_string.questions.spiral_matrix" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CanPlaceFlowersSingleScanApproach">
+  <component name="RunManager" selected="Application.ReverseVowelsOfAString">
     <configuration name="CanPlaceFlowersSingleScanApproach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dk.learning.leetcode75.strings._4_can_place_flowers.CanPlaceFlowersSingleScanApproach" />
       <module name="LeetCodePractice.main" />
@@ -177,12 +170,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LargestNumberAtLeastTwiceOfOthers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dk.learning.learn_dsa.array_and_string.LargestNumberAtLeastTwiceOfOthers" />
+    <configuration name="ReverseVowelsOfAString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dk.learning.leetcode75.strings.reverse_string_vowels.ReverseVowelsOfAString" />
       <module name="LeetCodePractice.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dk.learning.learn_dsa.array_and_string.*" />
+          <option name="PATTERN" value="dk.learning.leetcode75.strings.reverse_string_vowels.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -192,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseVowelsOfAString" />
         <item itemvalue="Application.CanPlaceFlowersSingleScanApproach" />
         <item itemvalue="Application.GCDOfStringsGreatestCommonDivisorApproach" />
         <item itemvalue="Application.KidsWithTheGreatestNumberOfCandies" />
         <item itemvalue="Application.DiagonalTraverse" />
-        <item itemvalue="Application.LargestNumberAtLeastTwiceOfOthers" />
       </list>
     </recent_temporary>
   </component>
