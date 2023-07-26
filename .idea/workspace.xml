@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9645050-7256-475c-b307-0788a21f9048" name="Changes" comment="chore: LeetCode75">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dk/learning/leetcode75/strings/_4_can_place_flowers/CanPlaceFlowersSingleScanOptimizedApproach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dk/learning/leetcode75/strings/reverse_string_vowels/ReverseVowelsOfAString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="8d4b7f00-2768-4ea3-8c29-23c14594570c" name="Config" comment="config: Project config" />
@@ -117,11 +117,11 @@
       <recent name="C:\dk\Learning\leetcode-practice\src\main\java\dk\learning\google_interview\interview_process\interview_process\license_key_formatting" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="dk.learning.leetcode75.strings.reverse_string_vowels" />
       <recent name="dk.learning.leetcode75.strings._4_can_place_flowers" />
       <recent name="dk.learning.leetcode75.strings" />
       <recent name="dk.learning.leetcode75.greatest_common_divisor_of_strings" />
       <recent name="dk.learning.learn_dsa.array_and_string.questions.spiral_matrix" />
-      <recent name="dk.learning.learn_dsa.array_and_string.questions" />
     </key>
   </component>
   <component name="RunManager" selected="Application.CanPlaceFlowersSingleScanApproach">
@@ -215,13 +215,6 @@
       <workItem from="1690195016168" duration="659000" />
       <workItem from="1690265566656" duration="1987000" />
       <workItem from="1690289870191" duration="3904000" />
-    </task>
-    <task id="LOCAL-00011" summary="config: config">
-      <created>1684769830994</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1684769830994</updated>
     </task>
     <task id="LOCAL-00012" summary="question: Find Number of Unique Email Addresses">
       <created>1684769870752</created>
@@ -559,7 +552,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690294084203</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="chore: LeetCode75">
+      <created>1690341415583</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1690341415584</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <option name="trackContextForNewChangelist" value="true" />
     <servers />
   </component>
