@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9645050-7256-475c-b307-0788a21f9048" name="Changes" comment="chore: LeetCode75">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dk/learning/leetcode75/strings/reverse_string_vowels/ReverseVowelsOfAStringMyApproach.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/leetcode75/strings/reverse_string_vowels/ReverseVowelsOfAString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/leetcode75/strings/reverse_string_vowels/ReverseVowelsOfAString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/leetcode75/strings/reverse_string_vowels/ReverseVowelsOfAString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/leetcode75/strings/reverse_string_vowels/ReverseVowelsOfAStringTwoPointersApproach.java" afterDir="false" />
     </list>
     <list id="8d4b7f00-2768-4ea3-8c29-23c14594570c" name="Config" comment="config: Project config" />
     <list id="5c249fc2-a94d-4763-89b0-c4c4123c0d58" name="Docs" comment="docs: &#10;" />
@@ -85,7 +86,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;dsa-practice&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/WD/dk/Learning/leetcode-practice&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/WD/PesaPrint/NoTi Projects/operations-web-application/operations&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -117,7 +118,7 @@
       <recent name="dk.learning.learn_dsa.array_and_string.questions.spiral_matrix" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReverseVowelsOfAString">
+  <component name="RunManager" selected="Application.ReverseVowelsOfAStringTwoPointersApproach">
     <configuration name="CanPlaceFlowersSingleScanApproach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dk.learning.leetcode75.strings._4_can_place_flowers.CanPlaceFlowersSingleScanApproach" />
       <module name="LeetCodePractice.main" />
@@ -170,8 +171,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseVowelsOfAString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dk.learning.leetcode75.strings.reverse_string_vowels.ReverseVowelsOfAString" />
+    <configuration name="ReverseVowelsOfAStringTwoPointersApproach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dk.learning.leetcode75.strings.reverse_string_vowels.ReverseVowelsOfAStringTwoPointersApproach" />
       <module name="LeetCodePractice.main" />
       <extension name="coverage">
         <pattern>
@@ -185,7 +186,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReverseVowelsOfAString" />
+        <item itemvalue="Application.ReverseVowelsOfAStringTwoPointersApproach" />
         <item itemvalue="Application.CanPlaceFlowersSingleScanApproach" />
         <item itemvalue="Application.GCDOfStringsGreatestCommonDivisorApproach" />
         <item itemvalue="Application.KidsWithTheGreatestNumberOfCandies" />
@@ -208,13 +209,7 @@
       <workItem from="1690195016168" duration="659000" />
       <workItem from="1690265566656" duration="1987000" />
       <workItem from="1690289870191" duration="3904000" />
-    </task>
-    <task id="LOCAL-00012" summary="question: Find Number of Unique Email Addresses">
-      <created>1684769870752</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1684769870752</updated>
+      <workItem from="1690527425080" duration="6070000" />
     </task>
     <task id="LOCAL-00013" summary="refactor: Move packages">
       <created>1684770364016</created>
@@ -552,7 +547,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690341415584</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="chore: LeetCode75">
+      <created>1690356708413</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1690356708414</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <option name="trackContextForNewChangelist" value="true" />
     <servers />
   </component>
