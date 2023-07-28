@@ -1,7 +1,6 @@
 /**
  * @apiNote PlusOne class
  * @author David Kariuki
- * @version 1.0.0
  * @since 22/05/22 @Question Find Pivot Index
  * <p>You are given a large integer represented as an integer array digits, where each digits[i]
  * is the ith digit of the integer. The digits are ordered from most significant to least

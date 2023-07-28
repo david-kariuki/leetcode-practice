@@ -1,16 +1,23 @@
 /**
  * @apiNote class
  * @author David Kariuki
- * @version 1.0.0
- * @Question Title
- * <p></p>
- * @since dd/mm/yy
+ * @question Title
+ *     <p>
+ * @example
+ * @example
+ * @constraints
+ * @complexityanalysis Complexity Analysis
+ *     <p>
+ * @timecomplexity -
+ *     <p>
+ * @spacecomplexity -
+ *     <p>
+ * @since dd/07/23
+ * @see <a href="">Title</a>
  */
 package dk.learning;
 
 public class TemplateClass {
 
-    public static void main(String[] args) {
-
-    }
+  public static void main(String[] args) {}
 }

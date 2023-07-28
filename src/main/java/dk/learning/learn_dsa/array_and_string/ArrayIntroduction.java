@@ -1,6 +1,5 @@
 /**
  * @author David Kariuki
- * @version 1.0.0
  * @apiNote ArrayIntroduction class
  * @since 22/05/22
  */

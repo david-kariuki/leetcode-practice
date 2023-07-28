@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9645050-7256-475c-b307-0788a21f9048" name="Changes" comment="refactor: Refactor">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dk/learning/learn_dsa/array_and_string/questions/diagonal_traverse/DiagonalTraverse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dk/learning/learn_dsa/array_and_string/questions/diagonal_traverse/Solution_Approach_1.mhtml" afterDir="false" />
+    <list default="true" id="e9645050-7256-475c-b307-0788a21f9048" name="Changes" comment="chore: LeetCode75">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dk/learning/leetcode75/strings/reverse_string_vowels/ReverseVowelsOfAStringMyApproach.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/leetcode75/strings/reverse_string_vowels/ReverseVowelsOfAString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/leetcode75/strings/reverse_string_vowels/ReverseVowelsOfAStringTwoPointersApproach.java" afterDir="false" />
     </list>
     <list id="8d4b7f00-2768-4ea3-8c29-23c14594570c" name="Config" comment="config: Project config" />
     <list id="5c249fc2-a94d-4763-89b0-c4c4123c0d58" name="Docs" comment="docs: &#10;" />
@@ -26,10 +26,16 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="package-info" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="David Kariuki &lt;14153276+david-kariuki@users.noreply.github.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
@@ -70,22 +76,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "dsa-practice",
-    "last_opened_file_path": "C:/WD/dk/Learning/leetcode-practice/src/main/java/dk/learning/learn_dsa/array_and_string/questions",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;dsa-practice&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/WD/PesaPrint/NoTi Projects/operations-web-application/operations&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\WD\dk\Learning\leetcode-practice\src\main\java\dk\learning\learn_dsa\array_and_string\questions" />
@@ -101,19 +111,20 @@
       <recent name="C:\dk\Learning\leetcode-practice\src\main\java\dk\learning\google_interview\interview_process\interview_process\license_key_formatting" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="dk.learning.learn_dsa.array_and_string.questions" />
-      <recent name="dk.learning.google_interview.interview_process.solution.my_solution" />
-      <recent name="dk.learning.google_interview.interview_process.solution.approved_solution" />
-      <recent name="dk.learning.google_interview.interview_process" />
+      <recent name="dk.learning.leetcode75.strings.reverse_string_vowels" />
+      <recent name="dk.learning.leetcode75.strings._4_can_place_flowers" />
+      <recent name="dk.learning.leetcode75.strings" />
+      <recent name="dk.learning.leetcode75.greatest_common_divisor_of_strings" />
+      <recent name="dk.learning.learn_dsa.array_and_string.questions.spiral_matrix" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DiagonalTraverse">
-    <configuration name="ArrayIntroduction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dk.learning.learn_dsa.array_and_string.ArrayIntroduction" />
+  <component name="RunManager" selected="Application.ReverseVowelsOfAStringTwoPointersApproach">
+    <configuration name="CanPlaceFlowersSingleScanApproach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dk.learning.leetcode75.strings._4_can_place_flowers.CanPlaceFlowersSingleScanApproach" />
       <module name="LeetCodePractice.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dk.learning.learn_dsa.array_and_string.*" />
+          <option name="PATTERN" value="dk.learning.leetcode75.strings._4_can_place_flowers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,12 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DynamicArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dk.learning.learn_dsa.array_and_string.DynamicArray" />
+    <configuration name="GCDOfStringsGreatestCommonDivisorApproach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dk.learning.leetcode75.strings._2_greatest_common_divisor_of_strings.GCDOfStringsGreatestCommonDivisorApproach" />
       <module name="LeetCodePractice.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dk.learning.learn_dsa.array_and_string.*" />
+          <option name="PATTERN" value="dk.learning.leetcode75.strings._2_greatest_common_divisor_of_strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,12 +158,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindPivotIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dk.learning.learn_dsa.array_and_string.FindPivotIndex" />
+    <configuration name="KidsWithTheGreatestNumberOfCandies" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dk.learning.leetcode75.strings._3_kids_with_greatest_no_of_candies.KidsWithTheGreatestNumberOfCandies" />
       <module name="LeetCodePractice.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dk.learning.learn_dsa.array_and_string.*" />
+          <option name="PATTERN" value="dk.learning.leetcode75.strings._3_kids_with_greatest_no_of_candies.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,12 +171,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LargestNumberAtLeastTwiceOfOthers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dk.learning.learn_dsa.array_and_string.LargestNumberAtLeastTwiceOfOthers" />
+    <configuration name="ReverseVowelsOfAStringTwoPointersApproach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dk.learning.leetcode75.strings.reverse_string_vowels.ReverseVowelsOfAStringTwoPointersApproach" />
       <module name="LeetCodePractice.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dk.learning.learn_dsa.array_and_string.*" />
+          <option name="PATTERN" value="dk.learning.leetcode75.strings.reverse_string_vowels.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseVowelsOfAStringTwoPointersApproach" />
+        <item itemvalue="Application.CanPlaceFlowersSingleScanApproach" />
+        <item itemvalue="Application.GCDOfStringsGreatestCommonDivisorApproach" />
+        <item itemvalue="Application.KidsWithTheGreatestNumberOfCandies" />
         <item itemvalue="Application.DiagonalTraverse" />
-        <item itemvalue="Application.LargestNumberAtLeastTwiceOfOthers" />
-        <item itemvalue="Application.FindPivotIndex" />
-        <item itemvalue="Application.DynamicArray" />
-        <item itemvalue="Application.ArrayIntroduction" />
       </list>
     </recent_temporary>
   </component>
@@ -195,93 +206,10 @@
       <option name="presentableId" value="Default" />
       <updated>1673955140299</updated>
       <workItem from="1673955142928" duration="5867000" />
-    </task>
-    <task id="LOCAL-00001" summary="Feat">
-      <changelist id="eeb4e8d4-dd58-47e4-8a9b-abbc0e2e9a20" name="Feat" comment="feat: &#10;" />
-      <created>1673956878801</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1673956878801</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Config">
-      <changelist id="8d4b7f00-2768-4ea3-8c29-23c14594570c" name="Config" comment="config: &#10;" />
-      <created>1673956894174</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1673956894174</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Docs">
-      <changelist id="5c249fc2-a94d-4763-89b0-c4c4123c0d58" name="Docs" comment="docs: &#10;" />
-      <created>1673956909307</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1673956909307</updated>
-    </task>
-    <task id="LOCAL-00004" summary="feat: Update JUnit version">
-      <created>1673962742859</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1673962742859</updated>
-    </task>
-    <task id="LOCAL-00005" summary="feat: Create template class">
-      <created>1673962754120</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1673962754120</updated>
-    </task>
-    <task id="LOCAL-00006" summary="feat: Unique Email Address solution&#10;&#10;Create class to implement Unique Email Address questions' solution">
-      <created>1673962813110</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1673962813110</updated>
-    </task>
-    <task id="LOCAL-00007" summary="feat: Create template md file">
-      <created>1673962839581</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1673962839581</updated>
-    </task>
-    <task id="LOCAL-00008" summary="config: Project configuration">
-      <created>1673962853453</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1673962853453</updated>
-    </task>
-    <task id="LOCAL-00009" summary="docs: Add interview questions">
-      <created>1673962869465</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1673962869465</updated>
-    </task>
-    <task id="LOCAL-00010" summary="config: Project configuration">
-      <created>1673962886257</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1673962886257</updated>
-    </task>
-    <task id="LOCAL-00011" summary="config: config">
-      <created>1684769830994</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1684769830994</updated>
-    </task>
-    <task id="LOCAL-00012" summary="question: Find Number of Unique Email Addresses">
-      <created>1684769870752</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1684769870752</updated>
+      <workItem from="1690195016168" duration="659000" />
+      <workItem from="1690265566656" duration="1987000" />
+      <workItem from="1690289870191" duration="3904000" />
+      <workItem from="1690527425080" duration="6070000" />
     </task>
     <task id="LOCAL-00013" summary="refactor: Move packages">
       <created>1684770364016</created>
@@ -430,7 +358,203 @@
       <option name="project" value="LOCAL" />
       <updated>1687273262840</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="refactor: Refactor">
+      <created>1688293022682</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1688293022682</updated>
+    </task>
+    <task id="LOCAL-00035" summary="refactor: Refactor">
+      <created>1688293032660</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1688293032660</updated>
+    </task>
+    <task id="LOCAL-00036" summary="refactor: Refactor">
+      <created>1688293163090</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1688293163090</updated>
+    </task>
+    <task id="LOCAL-00037" summary="refactor: Refactor">
+      <created>1688293201098</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1688293201098</updated>
+    </task>
+    <task id="LOCAL-00038" summary="refactor: Refactor">
+      <created>1688293419840</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1688293419840</updated>
+    </task>
+    <task id="LOCAL-00039" summary="refactor: Refactor">
+      <created>1688295314103</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1688295314103</updated>
+    </task>
+    <task id="LOCAL-00040" summary="refactor: Refactor">
+      <created>1689820818039</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1689820818039</updated>
+    </task>
+    <task id="LOCAL-00041" summary="config: Project config">
+      <created>1689821945801</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1689821945801</updated>
+    </task>
+    <task id="LOCAL-00042" summary="refactor: Refactor">
+      <created>1689821950578</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1689821950578</updated>
+    </task>
+    <task id="LOCAL-00043" summary="refactor: Refactor">
+      <created>1689824052266</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1689824052266</updated>
+    </task>
+    <task id="LOCAL-00044" summary="refactor: Refactor">
+      <created>1689824068658</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1689824068658</updated>
+    </task>
+    <task id="LOCAL-00045" summary="refactor: Refactor">
+      <created>1689825331523</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1689825331523</updated>
+    </task>
+    <task id="LOCAL-00046" summary="refactor: Refactor">
+      <created>1689873128223</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1689873128223</updated>
+    </task>
+    <task id="LOCAL-00047" summary="refactor: Refactor">
+      <created>1689874738832</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1689874738832</updated>
+    </task>
+    <task id="LOCAL-00048" summary="refactor: Refactor">
+      <created>1689877851162</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1689877851162</updated>
+    </task>
+    <task id="LOCAL-00049" summary="chore: LeetCode75">
+      <created>1689877977357</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1689877977357</updated>
+    </task>
+    <task id="LOCAL-00050" summary="config: Project config">
+      <created>1689877987303</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1689877987303</updated>
+    </task>
+    <task id="LOCAL-00051" summary="chore: LeetCode75">
+      <created>1689878254917</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1689878254917</updated>
+    </task>
+    <task id="LOCAL-00052" summary="chore: LeetCode75">
+      <created>1689878491775</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1689878491775</updated>
+    </task>
+    <task id="LOCAL-00053" summary="chore: LeetCode75">
+      <created>1689910056780</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1689910056780</updated>
+    </task>
+    <task id="LOCAL-00054" summary="chore: LeetCode75">
+      <created>1690290982428</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1690290982429</updated>
+    </task>
+    <task id="LOCAL-00055" summary="chore: LeetCode75">
+      <created>1690292192180</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1690292192180</updated>
+    </task>
+    <task id="LOCAL-00056" summary="chore: LeetCode75">
+      <created>1690292963456</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1690292963456</updated>
+    </task>
+    <task id="LOCAL-00057" summary="chore: LeetCode75">
+      <created>1690293186322</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1690293186322</updated>
+    </task>
+    <task id="LOCAL-00058" summary="chore: LeetCode75">
+      <created>1690293458599</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1690293458599</updated>
+    </task>
+    <task id="LOCAL-00059" summary="chore: LeetCode75">
+      <created>1690294084203</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1690294084203</updated>
+    </task>
+    <task id="LOCAL-00060" summary="chore: LeetCode75">
+      <created>1690341415583</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1690341415584</updated>
+    </task>
+    <task id="LOCAL-00061" summary="chore: LeetCode75">
+      <created>1690356708413</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1690356708414</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <option name="trackContextForNewChangelist" value="true" />
     <servers />
   </component>
@@ -449,7 +573,8 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT_PROFILE" value="Project Default" />
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="feat: Update JUnit version" />
@@ -462,10 +587,12 @@
     <MESSAGE value="question: Find Number of Unique Email Addresses" />
     <MESSAGE value="questions: Create question template files" />
     <MESSAGE value="refactor: Move packages" />
-    <MESSAGE value="config: Project config" />
     <MESSAGE value="Leaning arrays" />
     <MESSAGE value="refactor: Refactor" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: Refactor" />
+    <MESSAGE value="learn: LeetCode75" />
+    <MESSAGE value="config: Project config" />
+    <MESSAGE value="chore: LeetCode75" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: LeetCode75" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

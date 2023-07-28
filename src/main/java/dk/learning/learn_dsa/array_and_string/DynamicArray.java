@@ -1,7 +1,6 @@
 /**
  * @apiNote class
  * @author David Kariuki
- * @version 1.0.0
  * @since 5/22/23
  */
 package dk.learning.learn_dsa.array_and_string;
