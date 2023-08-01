@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9645050-7256-475c-b307-0788a21f9048" name="Changes" comment="chore: LeetCode75">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dk/learning/leetcode75/strings/reverse_string_vowels/ReverseVowelsOfAStringMyApproach.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/leetcode75/strings/reverse_string_vowels/ReverseVowelsOfAString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/leetcode75/strings/reverse_string_vowels/ReverseVowelsOfAStringTwoPointersApproach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/leetcode75/strings/reverse_string_vowels/ReverseVowelsOfAStringMyApproach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/leetcode75/strings/reverse_string_vowels/ReverseVowelsOfAStringMyApproach.java" afterDir="false" />
     </list>
     <list id="8d4b7f00-2768-4ea3-8c29-23c14594570c" name="Config" comment="config: Project config" />
     <list id="5c249fc2-a94d-4763-89b0-c4c4123c0d58" name="Docs" comment="docs: &#10;" />
@@ -209,14 +208,8 @@
       <workItem from="1690195016168" duration="659000" />
       <workItem from="1690265566656" duration="1987000" />
       <workItem from="1690289870191" duration="3904000" />
-      <workItem from="1690527425080" duration="6070000" />
-    </task>
-    <task id="LOCAL-00013" summary="refactor: Move packages">
-      <created>1684770364016</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1684770364016</updated>
+      <workItem from="1690527425080" duration="6726000" />
+      <workItem from="1690879589986" duration="56000" />
     </task>
     <task id="LOCAL-00014" summary="refactor: Move packages">
       <created>1684770823250</created>
@@ -554,7 +547,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690356708414</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="chore: LeetCode75">
+      <created>1690535204780</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1690535204781</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <option name="trackContextForNewChangelist" value="true" />
     <servers />
   </component>

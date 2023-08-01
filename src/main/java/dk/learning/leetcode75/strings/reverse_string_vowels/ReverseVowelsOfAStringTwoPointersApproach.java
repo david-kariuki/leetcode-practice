@@ -22,7 +22,7 @@
  *     <p>We swap characters when both pointers point to vowels which are O(1) operation. Hence the
  *     total time complexity will be O(N).
  *     <p>Note that in Java we need to convert the string to a char array as strings are immutable
- *     and hence it would take O(N)O(N)O(N) time.
+ *     and hence it would take O(N) time.
  * @spacecomplexity - Space complexity: O(N)
  *     <p>In C++ we only need an extra temporary variable to perform the swap and hence the space
  *     complexity is O(1). However, in Java, we need to convert the string to a char array that
