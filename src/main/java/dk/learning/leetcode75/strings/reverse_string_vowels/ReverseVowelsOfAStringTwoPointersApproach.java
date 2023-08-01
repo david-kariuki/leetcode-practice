@@ -55,11 +55,18 @@ public class ReverseVowelsOfAStringTwoPointersApproach {
     char[] charArray = string.toCharArray();
 
     while (start < end) {
-      while (start < string.length() && !isVowel(charArray[start])) start++;
-      while (end >= 0 && !isVowel(charArray[end])) end--;
+      if (start < string.length() && !isVowel(charArray[start])) {
+        start++;
+        continue;
+      }
+
+      if (end >= 0 && !isVowel(charArray[end])) {
+        end--;
+        continue;
+      }
+
       if (start < end) swap(charArray, start++, end--);
     }
-
     return new String(charArray);
   }
 
@@ -70,7 +77,6 @@ public class ReverseVowelsOfAStringTwoPointersApproach {
   }
 
   public static boolean isVowel(Character character) {
-    character = Character.toLowerCase(character);
     return (character.equals('a')
         || character.equals('e')
         || character.equals('i')
