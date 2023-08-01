@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9645050-7256-475c-b307-0788a21f9048" name="Changes" comment="chore: LeetCode75">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dk/learning/leetcode75/strings/reverse_words_in_a_string/ReverseWordsInAString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/TemplateClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/TemplateClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/leetcode75/strings/reverse_words_in_a_string/ReverseWordsInAString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/leetcode75/strings/reverse_words_in_a_string/ReverseWordsInAString.java" afterDir="false" />
     </list>
     <list id="8d4b7f00-2768-4ea3-8c29-23c14594570c" name="Config" comment="config: Project config" />
     <list id="5c249fc2-a94d-4763-89b0-c4c4123c0d58" name="Docs" comment="docs: &#10;" />
@@ -118,26 +117,13 @@
       <recent name="dk.learning.learn_dsa.array_and_string.questions.spiral_matrix" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReverseVowelsOfAStringTwoPointersApproach">
+  <component name="RunManager" selected="Application.TemplateClass">
     <configuration name="CanPlaceFlowersSingleScanApproach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dk.learning.leetcode75.strings._4_can_place_flowers.CanPlaceFlowersSingleScanApproach" />
       <module name="LeetCodePractice.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="dk.learning.leetcode75.strings._4_can_place_flowers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DiagonalTraverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dk.learning.learn_dsa.array_and_string.questions.diagonal_traverse.DiagonalTraverse" />
-      <module name="LeetCodePractice.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dk.learning.learn_dsa.array_and_string.questions.diagonal_traverse.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -184,13 +170,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TemplateClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dk.learning.TemplateClass" />
+      <module name="LeetCodePractice.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dk.learning.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TemplateClass" />
         <item itemvalue="Application.ReverseVowelsOfAStringTwoPointersApproach" />
         <item itemvalue="Application.CanPlaceFlowersSingleScanApproach" />
         <item itemvalue="Application.GCDOfStringsGreatestCommonDivisorApproach" />
         <item itemvalue="Application.KidsWithTheGreatestNumberOfCandies" />
-        <item itemvalue="Application.DiagonalTraverse" />
       </list>
     </recent_temporary>
   </component>
@@ -210,14 +209,7 @@
       <workItem from="1690265566656" duration="1987000" />
       <workItem from="1690289870191" duration="3904000" />
       <workItem from="1690527425080" duration="6726000" />
-      <workItem from="1690879589986" duration="3439000" />
-    </task>
-    <task id="LOCAL-00016" summary="questions: Create question template files">
-      <created>1684771766589</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1684771766589</updated>
+      <workItem from="1690879589986" duration="5563000" />
     </task>
     <task id="LOCAL-00017" summary="questions: Create question template files">
       <created>1684771907788</created>
@@ -555,7 +547,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690884197177</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="chore: LeetCode75">
+      <created>1690890888956</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1690890888956</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <option name="trackContextForNewChangelist" value="true" />
     <servers />
   </component>
