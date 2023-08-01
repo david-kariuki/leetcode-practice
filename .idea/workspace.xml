@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9645050-7256-475c-b307-0788a21f9048" name="Changes" comment="chore: LeetCode75">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dk/learning/leetcode75/strings/reverse_words_in_a_string/ReverseWordsInAString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/leetcode75/strings/reverse_string_vowels/ReverseVowelsOfAStringTwoPointersApproach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/leetcode75/strings/reverse_string_vowels/ReverseVowelsOfAStringTwoPointersApproach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/TemplateClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/TemplateClass.java" afterDir="false" />
     </list>
     <list id="8d4b7f00-2768-4ea3-8c29-23c14594570c" name="Config" comment="config: Project config" />
     <list id="5c249fc2-a94d-4763-89b0-c4c4123c0d58" name="Docs" comment="docs: &#10;" />
@@ -24,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="package-info" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -209,14 +210,7 @@
       <workItem from="1690265566656" duration="1987000" />
       <workItem from="1690289870191" duration="3904000" />
       <workItem from="1690527425080" duration="6726000" />
-      <workItem from="1690879589986" duration="1792000" />
-    </task>
-    <task id="LOCAL-00015" summary="questions: Create question template files">
-      <created>1684771426543</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1684771426543</updated>
+      <workItem from="1690879589986" duration="3439000" />
     </task>
     <task id="LOCAL-00016" summary="questions: Create question template files">
       <created>1684771766589</created>
@@ -554,7 +548,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690879673645</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="chore: LeetCode75">
+      <created>1690884197177</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1690884197177</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <option name="trackContextForNewChangelist" value="true" />
     <servers />
   </component>

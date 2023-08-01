@@ -12,12 +12,9 @@
  *     <p>
  * @spacecomplexity -
  *     <p>
- * @since dd/08/23
- * @see <a href="https://leetcode.com/problems/>--</a>
+ * @since 01/07/23
+ * @see <a href="https://leetcode.com/problems/>Title</a>
  */
-package dk.learning;
+package dk.learning.leetcode75.strings.reverse_words_in_a_string;
 
-public class TemplateClass {
-
-  public static void main(String[] args) {}
-}
+public class ReverseWordsInAString {}
