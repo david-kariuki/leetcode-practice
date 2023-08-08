@@ -29,8 +29,7 @@
  * @since dd/08/23
  * @see <a href="https://leetcode.com/problems/>--</a>
  */
-package dk.learning.leetcode75.strings.reverse_words_in_a_string;
-
+package dk.learning.leetcode75.strings._6_reverse_words_in_a_string;
 
 public class ReverseWordsInAString {
 

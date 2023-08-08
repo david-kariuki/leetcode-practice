@@ -14,7 +14,10 @@
  * @complexityanalysis Complexity Analysis
  *     <p>Here, N is the length of the string s.
  * @timecomplexity - Time complexity: O(N)
- *     <p>Each element of the string s will be iterated only once either by the left or right
+ *     <p>It might be tempting to say that there are two nested loops and hence the complexity would
+ *     be O(N^2).
+ *     <p>However, if we observe closely the pointers start and end will only traverse the index
+ *     once. Each element of the string s will be iterated only once either by the left or right
  *     pointer and not both.
  *     <p>We swap characters when both pointers point to vowels which are O(1) operation. Hence the
  *     total time complexity will be O(N).
@@ -30,10 +33,10 @@
  *     href="https://leetcode.com/problems/reverse-vowels-of-a-string/description/?envType=study-plan-v2&envId=leetcode-75">
  *     Reverse Vowels of a String </a>
  */
-package dk.learning.leetcode75.strings.reverse_string_vowels;
+package dk.learning.leetcode75.strings._5_reverse_string_vowels;
 
 @SuppressWarnings("BooleanMethodIsAlwaysInverted")
-public class ReverseVowelsOfAStringMyApproach {
+public class ReverseVowelsOfAStringTwoPointersApproach {
 
   public static void main(String[] args) {
 
@@ -47,11 +50,11 @@ public class ReverseVowelsOfAStringMyApproach {
   }
 
   public static String reverseVowels(String string) {
+
     int start = 0, end = string.length() - 1;
     char[] charArray = string.toCharArray();
 
     while (start < end) {
-
       if (start < string.length() && !isVowel(charArray[start])) {
         start++;
         continue;
@@ -74,7 +77,6 @@ public class ReverseVowelsOfAStringMyApproach {
   }
 
   public static boolean isVowel(Character character) {
-    character = Character.toLowerCase(character);
     return (character.equals('a')
         || character.equals('e')
         || character.equals('i')
