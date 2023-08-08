@@ -31,6 +31,7 @@
  */
 package dk.learning.leetcode75.strings.reverse_words_in_a_string;
 
+
 public class ReverseWordsInAString {
 
   public static void main(String[] args) {
@@ -60,21 +61,11 @@ public class ReverseWordsInAString {
   public static String reverseWords(String string) {
 
     StringBuilder result = new StringBuilder();
-    char[] charArray = string.trim().toCharArray();
-    int rightPointer = charArray.length;
+    String[] stringArr = string.trim().split("\\s+");
 
-    for (int i = charArray.length - 1; i >= 0; i--) {
-
-      if (charArray[i] == ' ' && charArray[i - 1] == ' ') continue;
-
-      if (charArray[i] == ' ') {
-        result.append(string.substring(i, rightPointer) + " ");
-        rightPointer = i;
-      }
-
-      if (i == 0) {
-        result.append(string.substring(i, rightPointer) + " ");
-      }
+    for (int i = stringArr.length - 1; i >= 0; i--) {
+      result.append(stringArr[i]);
+      if (i > 0) result.append(" ");
     }
 
     return result.toString();
