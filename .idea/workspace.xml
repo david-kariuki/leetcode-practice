@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9645050-7256-475c-b307-0788a21f9048" name="Changes" comment="chore: LeetCode75">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dk/learning/leetcode75/strings/_7_product_of_array_except_self/ProductOfArrayExceptSelf.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dk/learning/leetcode75/strings/reverse_words_in_a_string/ReverseWordsInAString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dk/learning/leetcode75/strings/reverse_words_in_a_string/ReverseWordsInAString.java" afterDir="false" />
     </list>
     <list id="8d4b7f00-2768-4ea3-8c29-23c14594570c" name="Config" comment="config: Project config" />
     <list id="5c249fc2-a94d-4763-89b0-c4c4123c0d58" name="Docs" comment="docs: &#10;" />
@@ -110,14 +110,14 @@
       <recent name="C:\dk\Learning\leetcode-practice\src\main\java\dk\learning\google_interview\interview_process\interview_process\license_key_formatting" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="dk.learning.leetcode75.strings._7_product_of_array_except_self" />
       <recent name="dk.learning.leetcode75.strings.reverse_string_vowels" />
       <recent name="dk.learning.leetcode75.strings._4_can_place_flowers" />
       <recent name="dk.learning.leetcode75.strings" />
       <recent name="dk.learning.leetcode75.greatest_common_divisor_of_strings" />
-      <recent name="dk.learning.learn_dsa.array_and_string.questions.spiral_matrix" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReverseWordsInAString">
+  <component name="RunManager" selected="Application.ProductOfArrayExceptSelf">
     <configuration name="CanPlaceFlowersSingleScanApproach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dk.learning.leetcode75.strings._4_can_place_flowers.CanPlaceFlowersSingleScanApproach" />
       <module name="LeetCodePractice.main" />
@@ -131,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GCDOfStringsGreatestCommonDivisorApproach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dk.learning.leetcode75.strings._2_greatest_common_divisor_of_strings.GCDOfStringsGreatestCommonDivisorApproach" />
+    <configuration name="ProductOfArrayExceptSelf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dk.learning.leetcode75.strings._7_product_of_array_except_self.ProductOfArrayExceptSelf" />
       <module name="LeetCodePractice.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dk.learning.leetcode75.strings._2_greatest_common_divisor_of_strings.*" />
+          <option name="PATTERN" value="dk.learning.leetcode75.strings._7_product_of_array_except_self.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,11 +145,11 @@
       </method>
     </configuration>
     <configuration name="ReverseVowelsOfAStringTwoPointersApproach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dk.learning.leetcode75.strings.reverse_string_vowels.ReverseVowelsOfAStringTwoPointersApproach" />
+      <option name="MAIN_CLASS_NAME" value="dk.learning.leetcode75.strings._5_reverse_string_vowels.ReverseVowelsOfAStringTwoPointersApproach" />
       <module name="LeetCodePractice.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dk.learning.leetcode75.strings.reverse_string_vowels.*" />
+          <option name="PATTERN" value="dk.learning.leetcode75.strings._5_reverse_string_vowels.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,11 +158,11 @@
       </method>
     </configuration>
     <configuration name="ReverseWordsInAString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dk.learning.leetcode75.strings.reverse_words_in_a_string.ReverseWordsInAString" />
+      <option name="MAIN_CLASS_NAME" value="dk.learning.leetcode75.strings._6_reverse_words_in_a_string.ReverseWordsInAString" />
       <module name="LeetCodePractice.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dk.learning.leetcode75.strings.reverse_words_in_a_string.*" />
+          <option name="PATTERN" value="dk.learning.leetcode75.strings._6_reverse_words_in_a_string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -185,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProductOfArrayExceptSelf" />
         <item itemvalue="Application.ReverseWordsInAString" />
         <item itemvalue="Application.TemplateClass" />
         <item itemvalue="Application.ReverseVowelsOfAStringTwoPointersApproach" />
         <item itemvalue="Application.CanPlaceFlowersSingleScanApproach" />
-        <item itemvalue="Application.GCDOfStringsGreatestCommonDivisorApproach" />
       </list>
     </recent_temporary>
   </component>
@@ -210,21 +210,7 @@
       <workItem from="1690289870191" duration="3904000" />
       <workItem from="1690527425080" duration="6726000" />
       <workItem from="1690879589986" duration="5639000" />
-      <workItem from="1691471777035" duration="4905000" />
-    </task>
-    <task id="LOCAL-00018" summary="questions: Create question template files">
-      <created>1684772265161</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1684772265161</updated>
-    </task>
-    <task id="LOCAL-00019" summary="refactor: Move packages">
-      <created>1684811972938</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1684811972938</updated>
+      <workItem from="1691471777035" duration="9579000" />
     </task>
     <task id="LOCAL-00020" summary="config: Project config">
       <created>1684812113322</created>
@@ -555,7 +541,21 @@
       <option name="project" value="LOCAL" />
       <updated>1690899480324</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="chore: LeetCode75">
+      <created>1691477969855</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1691477969856</updated>
+    </task>
+    <task id="LOCAL-00068" summary="chore: LeetCode75">
+      <created>1691478155748</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1691478155748</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <option name="trackContextForNewChangelist" value="true" />
     <servers />
   </component>
