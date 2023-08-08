@@ -22,7 +22,7 @@
  *     <p>We swap characters when both pointers point to vowels which are O(1) operation. Hence the
  *     total time complexity will be O(N).
  *     <p>Note that in Java we need to convert the string to a char array as strings are immutable
- *     and hence it would take O(N)O(N)O(N) time.
+ *     and hence it would take O(N) time.
  * @spacecomplexity - Space complexity: O(N)
  *     <p>In C++ we only need an extra temporary variable to perform the swap and hence the space
  *     complexity is O(1). However, in Java, we need to convert the string to a char array that
@@ -55,11 +55,18 @@ public class ReverseVowelsOfAStringTwoPointersApproach {
     char[] charArray = string.toCharArray();
 
     while (start < end) {
-      while (start < string.length() && !isVowel(charArray[start])) start++;
-      while (end >= 0 && !isVowel(charArray[end])) end--;
+      if (start < string.length() && !isVowel(charArray[start])) {
+        start++;
+        continue;
+      }
+
+      if (end >= 0 && !isVowel(charArray[end])) {
+        end--;
+        continue;
+      }
+
       if (start < end) swap(charArray, start++, end--);
     }
-
     return new String(charArray);
   }
 
@@ -70,7 +77,6 @@ public class ReverseVowelsOfAStringTwoPointersApproach {
   }
 
   public static boolean isVowel(Character character) {
-    character = Character.toLowerCase(character);
     return (character.equals('a')
         || character.equals('e')
         || character.equals('i')
